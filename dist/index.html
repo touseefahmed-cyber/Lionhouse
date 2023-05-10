@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <title>TailwindCSS Boilerplate</title>
+  <script type="module" crossorigin src="/assets/style-d57b828c.js"></script>
+  <link rel="stylesheet" href="/assets/style-ff7cf21f.css">
+</head>
+
+<body class="text-sm font-space-mono leading-18">
+    <header class="w-full float-left absolute top-[50px] z-10">
+        <div class="container mx-auto">
+            <nav class="flex justify-between items-center">
+                <div> 
+                    <a href="#" class="text-light-white pb-[5px] border-b-[1.5px] border-solid border-[#F5A54F]">Start a project</a>
+                </div>
+                <div>
+                    <a href="#">
+                        <figure>
+                            <img src="/assets/logo-8a8f11da.svg">
+                        </figure>
+                    </a>
+                </div>
+                <div>
+                    <a href="#" class="text-light-white mr-[50px]">Projects</a>
+                    <a href="#" class="text-light-white">Menu</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="bg-[#2C2C2C] w-full float-left pt-[372px] pb-[120px] relative
+    after:absolute after:bg-[url('assets/images/layout-bgimg.png')] after:content-[''] after:w-[710px] after:h-[794px] after:bottom-0 after:right-0 after:opacity-[10%]" >
+        <div class="container mx-auto">
+            <span class="text-light-white text-2xl w-[26%] block leading-34 ml-auto">Strategy-led brand and 
+                digital experience agency</span>
+                <figure class="relative z-10">
+                    <img src="/assets/lion-banner-img-b458d160.png" alt="">
+                </figure>
+                <div class="video-custom mb-[232px] mt-[-48px]">
+                    <div class="play-pause"><span class="play-btn" id="play_button">
+                        <img src="/assets/play-btn-3fc7d839.svg">
+                    </span><span id="pause_button" class="pause-btn"><i></i></span></div>
+                    <img class="poster-img" src="/assets/video-img-a6356d19.png" alt="Model Popup">
+                    <video id="video" width="100%" poster="assets/images/vedio-img.jpg">
+                     <source src="/assets/banner-vedio-bf25459a.mp4" data-wf-ignore="true">
+                    </video>
+                    <!--Volume Control Start-->
+                    <!-- <div class="sound-ctrl">
+                     <img src="https://coderwrap.com/wp-content/uploads/2023/01/volume-icon.svg" alt="Volume">
+                     <button class="off-button" id="sound-off" type="button">OFF</button>
+                     <button class="on-button" id="sound-on" type="button">ON</button>
+                    </div> -->
+                    <!--Volume Control End-->
+                   </div>
+            <p class="text-light-white text-2xl leading-34 w-[44%] ml-auto mb-[255px]">We help our clients be <span>bolder</span> & achieve their business goals through strategic planning, creative thinking, brilliant design and technical expertise. </p>
+            <div class="flex items-center mb-[28px]">
+                <figure class="inline-block mr-[12px]"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAfCAYAAAD9cg1AAAAABHNCSVQICAgIfAhkiAAABMZJREFUSEudVl1MHFUUvufO7LLMbhuxRmP8qan6oqAJLUUjVRO1hrLMVA1YZndrXwyoMcGf6IM0FmuiRkXjQ0v0AYWZpV0byuwsjanVSmNSjWmT1tqHhvShoWhEUws7A+wycz27MNthd9ldncc5537fOd/5uRdIic+MtnYwRtsZI+vQrY4Scswm5GEgLM0IXKRADld7vJ9B+9fWajBQzGAOim2MI58CkGFG2I/C7NQYdJ5KO75ICPOK1GRR8hQCdAGxe4WQ/kExrAICQ5H6McIZxvhP/JGR30tl6NgMNdhDCNfqD2mN+f4rCAxV7MGoTUGO91UC7PYxlNYGAPqeENIed//PEWQjp9YFQU4UgM+ObL2Rm/M9YmEteGLNUcL/UhXWzucHkVSkOgJsOBCK1zq2LIGpim2EkQYhHH+j4JAqDqPTZszsENr+YjbZwIBswX8TvGX1VO0cO+c+Yw5hY1Bai3K9lfmfJUBpLhOb3+TWHAtJzag0DYy8KIS1g/nEqaHg/WkOdoPt6RbCI5Mr5FKlCY4sbvWFxi5CUmmVKSX1gqy/vsIpKv3tl7VMe5b8UPuTwNFuoUP72XHELNoJhUYhFH8NDFU6TMD+yi/ro45DEmWhDEaLRZ7PZsaCt7AU95M/rN2Wa2O1pcYg/EQgpK3DDKQTfmPyMafPGRbUNH0n/eH4neWidwWk4BCOYMQjuSxUUan+Z6YrQ3AlENZqXIZMwTdhwd+smABlxprduyaiZwu7XFfdWjR2AXZQDJnbcwZF7GKUrAnI8Q8rJZiPik/YjIiI87KLYA8zyX6sgWj7Q3HMcOlLKuJz2FoPoEQvVEowFxXDSLAFcTqv4UgnUobRCljQM9isEYz4bMa4oEj3pIHF3MNSjigzpNgop/0h/XNXoDN+b1UNZrB9r4fal7wd8S9c6Y16OPtt747EmXLgWb0V6VfBmKx3GiU5sK0OPPy7qIIEc+q29TbxjOPk3eGALQy21C5SrhcdnilHgAp8TGz7XCCSGHB3FcfgSHVYizqTjDPABjBFLddNSvOtBLwx4rHahPbE5WJEGXAe4AefrOmOncWevN5I+S5gZ96Q+ZclSB0I1qcsbi8ORosbyByWGplFDjFg4wQj4imbxl10k02giRD7IUZZX0C+FvmyXL248P7Agu/PESwZxC8ZwPdIMpgfLbby03jxbAQCaxkhXsz2lJCcGnBfQpkz82rLBovwR1HuuxyM3LpmeqtgXoU/UfdAOd1Xs+Pa+YYxuy8Q1o8WECxn8TyqdjPulXf+KwkuvSBQ2izI2kvuswVXJq6O4xy191TL+nilJCzWxpnphXnU3ZN/poCAKc1rDfBewlpcVykB1i9BAPah9kfKEmQcFrCoaZs1BSL6q+VIkkPSTqDsbox+dzHfos+WbD1UcR9u1bNY9P7VSBYOtNSmF/ko9vx9q/msSrBMcpoHFqmS9d+KASRVvPU83vX48Er+LwIsnheLN4Pp+/IBEPxbjlnvV4cT35WSsWQGS1ls34hT248kDQ4QrvSP8B6fquT9VJYgA2oqwWdtoA/iCu/Gqd6Bs7IZH1hlGyBztiKCLIkqvYI7/3Z8ltb45fiuct1VdJJLHWLHH+UXp2sa+Cuz56Hz2NVKCf4FYnYN1hWcbJ0AAAAASUVORK5CYII="></figure>
+                <span class="inline-block text-light-white">Our offices</span>
+            </div>
+            <figure>
+                <img src="/assets/cornwall-logo-47be4627.png">
+            </figure>
+
+        </div>
+        
+    </section>
+
+    
+    <script>
+        //Video Play Pause Control Start
+let playButton = document.getElementById("play_button");
+let pauseButton = document.getElementById("pause_button");
+playButton.addEventListener("click", function() {
+  video.play();
+  playButton.classList.add('vplay');
+  pauseButton.classList.remove('vpause');
+  document.querySelector('html').classList.add('playvideo');
+});
+
+pauseButton.addEventListener("click", function() {
+	video.pause();
+	 playButton.classList.remove('vplay');
+  pauseButton.classList.add('vpause');
+});
+//Video Play Pause Control End
+//Video Sound on & off Ctrl Start
+let soundOff = document.getElementById("sound-off");
+let soundOn = document.getElementById("sound-on");
+let soundCtrl = document.querySelector(".sound-ctrl");
+
+soundOff.addEventListener("click", function() {
+ video.muted = true;
+ soundCtrl.classList.add('soundctrlshow');
+});
+
+soundOn.addEventListener("click", function() {
+	video.muted = false;
+	soundCtrl.classList.remove('soundctrlshow'); 
+});
+//Video Sound on & off Ctrl End
+video.onended = function() {
+		document.querySelector('html').classList.remove('playvideo');
+	 playButton.classList.remove('vplay');
+};
+    </script>
+</body>
+
+</html>
