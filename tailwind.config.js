@@ -32,7 +32,7 @@ module.exports = {
                 base: '0.875rem',
                 xl: '1.25rem',//20px
                 '2xl': '1.313rem',//21px
-                '3xl':'1.375rem',
+                '3xl':'1.375rem',//22px
                 '4xl':'3rem',//48px
               },
               lineHeight: {
