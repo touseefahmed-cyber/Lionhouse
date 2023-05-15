@@ -32,6 +32,19 @@
   transition: background-position .7s, background-size .5s ease-in-out !important;
 }
  
+.site-map-col ul li a::after,.site-map-col2 a::after{
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 1px;
+  content: '';
+  position: absolute;
+  background: #FFA156;
+  transition: ease-in-out 0.3s;
+}
+.site-map-col ul li a:hover::after,.site-map-col2 a:hover::after {
+  width: 100%;
+}
  .video-custom .poster-img {
   display: block;
   width: 100%;
@@ -61,6 +74,14 @@
   transition: 0.5s all;
   overflow: hidden;
  }
+ @keyframes marquee {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+.marquee > h3 {
+  white-space: nowrap;
+  animation: marquee 6s linear infinite; /* Time must be adjusted based on total width of scrolled elements*/
+}
  
  .video-custom .pause-btn {
   display: none;
@@ -186,13 +207,7 @@
  }
  
  /***Volume Control***/
- @media(max-width:800px) {
-  .video-custom {
-   width: calc(100% - 20px);
-  }
- 
- }
- 
+
  
  
  @font-face {

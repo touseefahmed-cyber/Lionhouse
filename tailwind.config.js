@@ -17,10 +17,10 @@ module.exports = {
             },
             container: {
                 screens:{
-                    sm:"1280px",
-                    md:"1280px",
-                    lg:"1280px",
-                    xl:"1280px",
+                    sm:"1212px",
+                    md:"1212px",
+                    lg:"1212px",
+                    xl:"1212px",
                 }
             },
             fontFamily: {

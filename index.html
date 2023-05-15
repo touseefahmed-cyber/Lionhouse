@@ -14,11 +14,12 @@
 </head>
 
 <body class="text-sm font-space-mono leading-18 text-light-silver">
-    <header class="w-full float-left absolute top-[50px] z-10">
-        <div class="container mx-auto">
+    
+    <header class=" w-full float-left fixed top-[48px] z-[9999]">
+        <div class="container mx-auto xl:px-0 px-4">
             <nav class="flex justify-between items-center">
-                <div> 
-                    <a href="#" class="text-light-white pb-[5px] start-link">Start a project</a>
+                <div class="lg:inline-block md:hidden sm:hidden hidden"> 
+                    <a href="#" class="text-light-white pb-[5px] start-link tracking-[1px]">Start A Project</a>
                 </div>
                 <div>
                     <a href="#">
@@ -27,19 +28,21 @@
                         </figure>
                     </a>
                 </div>
-                <div>
-                    <a href="#" class="text-light-white mr-[50px] hover:text-[#FFA156]">Projects</a>
-                    <a href="#" class="text-light-white hover:text-[#FFA156]">Menu <span class="inline-block bg-[#FFA156] w-[19px] h-[19px] rounded-[50%] relative top-[4px]"></span></a>
+                <div class="site-map-col">
+                    <ul>
+                        <li class="inline-block"><a href="#" class="text-light-white mr-[47px] hover:text-[#FFA156] relative lg:inline-block md:hidden sm:hidden hidden">Projects</a></li>
+                        <li class="inline-block"><a href="#" class="text-light-white hover:text-[#FFA156] relative">Menu <span class="inline-block bg-[#FFA156] w-[19px] h-[19px] rounded-[50%] relative top-[4px]"></span></a></li>
+                    </ul>
                 </div>
             </nav>
         </div>
     </header>
-    <section class="bg-[#2C2C2C] w-full float-left pt-[372px] pb-[120px] relative
-    after:absolute after:bg-[url('assets/images/layout-bgimg.png')] after:content-[''] after:w-[710px] after:h-[794px] after:bottom-0 after:right-0 after:opacity-[10%]" >
-        <div class="container mx-auto">
-            <span class="text-light-white text-2xl w-[26%] block leading-34 ml-auto">Strategy-led brand and  digital experience agency</span>
-                <h1 class="text-8xl text-black leading-[262px] larkenvariableroman font-black relative z-10">Lionhouse</h1>
-                <div class="video-custom mb-[232px] mt-[-92px]">
+    <section class="bg-[#2C2C2C] w-full float-left 2xl:pt-[380px] xl:pt-[340px] lg:pt-[300px] md:pt-[250px] pt-[180px] md:pb-[120px] pb-[90px] relative 
+    after:absolute after:bg-[url('assets/images/layout-bgimg.png')] after:content-[''] lg:after:w-[710px] after:w-[450px] xl:after:h-[794px] after:h-[650px] after:bottom-0 after:right-0 after:opacity-[10%]" >
+        <div class="container mx-auto xl:px-0 px-4">
+            <span class="text-light-white text-2xl lg:w-[27%] md:w-[33%] w-[40%] block leading-34 ml-auto md:mb-0 mb-6">Strategy-led brand and  digital experience agency</span>
+                <h1 class="2xl:text-8xl xl:text-[250px] lg:text-[200px] md: `text-[145px] text-[123px] text-center text-black md:leading-[184px] leading-[125px] larkenvariableroman font-black relative z-10 xl:ml-[-32px] wow slideInLeft">Lionhouse</h1>
+                <div class="video-custom xl:mb-[230px] lg:mb-[160px] mb-[125px] lg:mt-[-92px] mt-[-77px] lg:mx-[32px]">
                     <div class="play-pause"><span class="play-btn" id="play_button">
                         <img src="assets/images/play-btn.svg">
                     </span><span id="pause_button" class="pause-btn"><i></i></span></div>
@@ -55,75 +58,89 @@
                     </div> -->
                     <!--Volume Control End-->
                    </div>
-            <p class="text-light-white text-2xl leading-34 w-[44%] ml-auto mb-[255px]">We help our clients be <span>bolder</span> & achieve their business goals through strategic planning, creative thinking, brilliant design and technical expertise. </p>
-            <div class="flex items-center mb-[28px]">
-                <figure class="inline-block mr-[12px]"><img src="assets/images/location.png"></figure>
-                <span class="inline-block text-light-white">Our offices</span>
+            <p class="text-light-white lg:text-2xl text-[19px] leading-34 lg:w-[44%] md:w-[52%] w-[60%] ml-auto lg:mb-[253px] md:mb-[170px] mb-[140px] ">We help our clients be <span class="start-link">bolder</span> & achieve their business goals through strategic planning, creative thinking, brilliant design and technical expertise. </p>
+            <div class="md:ml-[42px] md:mr-[42px]">
+                <div class="flex items-center mb-[28px]">
+                    <figure class="inline-block mr-[12px]"><img src="assets/images/location.png"></figure>
+                    <span class="inline-block text-light-white">Our offices</span>
+                </div>
+                <h3 class="xl:text-5xl lg:text-[115px] md:text-[83px] text-[77px] text-black lg:leading-[102px] md:leading-[90px] leading-[80px] larkenvariableroman font-black tracking-[1.9px] inline-block border-r-[1.5px] border-solid border-[#F5A54F] lg:pr-[51px] pr-[35px] mr-[36px]">Bath</h3>
+                <h3 class="xl:text-5xl lg:text-[115px] md:text-[83px] text-[77px] text-black lg:leading-[102px] leading-[90px] larkenvariableroman font-black tracking-[1.9px] inline-block">Cornwall</h3>
             </div>
-            <h3 class="text-5xl text-black leading-[102px] larkenvariableroman font-black tracking-[1.9px] inline-block border-r-[1.5px] border-solid border-[#F5A54F] pr-[51px] mr-[36px]">Bath</h3>
-            <h3 class="text-5xl text-black leading-[102px] larkenvariableroman font-black tracking-[1.9px] inline-block">Cornwall</h3>
         </div>
     </section>
-    <section class="pt-[105px] pb-[68px] w-full float-left bg-light-white border-b-[1px] solid border-[#DDDDDD] mb-[100px]">
-        <div class="container mx-auto">
-            <div class="mb-[5px] w-full float-left">
-                <a href="#" class="text-sm leading-13 text-black border-[1px] border-solid border-[#F5A54F] inline-block rounded-[21px] px-[17px] pt-[10px] pb-[11px] float-right hover:text-light-white hover:bg-[#F5A54F]">See all projects</a>
-            </div>
-            <h3 class="text-6xl text-black leading-[150px] larkenvariableroman font-black tracking-[1.9px] text-right text-dark-yellow text-[#f2ebd9] opacity-10 w-full float-right">Projects</h3>
-            <div class="grid grid-cols-2 gap-x-[34px] gap-y-[74px] mt-[-39px] mb-[88px] w-full float-left relative">
-                <div>
-                    <figure class="mb-[26px]">
-                        <img src="assets/images/service-img1.png" alt="service-img" class="w-full">
-                    </figure>
-                    <h3 class="text-xl text-black mb-[20px]">Mission Pebble</h3>
-                    <p class=" w-[41%]">Bringing a sustainable consumer brand to life,from idea to exceeding sales targets</p>
+    <section class="pt-[105px] pb-[57px] w-full float-left bg-light-white border-b-[1px] solid border-[#DDDDDD]">
+        <div class="max-w-[1150px] mx-auto 2xl:px-0 px-4 md:mb-0 mb-4"> 
+                <div class="w-full float-left">
+                    <a href="#" class="text-sm leading-13 text-black border-[1px] border-solid border-[#F5A54F] inline-block rounded-[21px]  pl-[22px] pr-[12px]
+                     pt-[10px] pb-[11px] float-right hover:text-light-white hover:bg-[#F5A54F] transition-all duration-[0.6s]
+                      ease-in-out hover:-translate-y-[8px]">See all projects</a>
                 </div>
-                <div>
-                    <figure class="mb-[26px]">
-                        <img src="assets/images/service-img2.png" alt="service-img" class="w-full">
-                    </figure>
-                    <h3 class="text-xl text-black mb-[20px]">Lucra Mortgages</h3>
-                    <p class="w-[41%]">Bringing a sustainable consumer brand to life,from idea to exceeding sales targets</p>
+                <h3 class="xl:text-6xl lg:text-[134px] md:text-[118px] text-[75px] text-black md:leading-[150px] leading-[115px] larkenvariableroman font-black tracking-[1.9px] text-right text-dark-yellow text-[#f2ebd9] opacity-10 w-full float-right">Projects</h3>
+                <div class="grid grid-cols-2 md:gap-x-[35px] gap-x-[15px] md:gap-y-[67px] gap-y-[40px] mt-[-39px] md:mb-[75px] mb-[50px] w-full float-left relative">
+                    <div>
+                        <figure class="mb-[25px]">
+                            <img src="assets/images/service-img1.png" alt="service-img" class="w-full">
+                        </figure>
+                        <h3 class="text-xl text-black mb-[11px]">Mission Pebble</h3>
+                        <p class="md:w-[47%] w-[65%]">Bringing a sustainable consumer brand to life,from idea to exceeding sales targets</p>
+                    </div>
+                    <div>
+                        <figure class="mb-[25px]">
+                            <img src="assets/images/service-img2.png" alt="service-img" class="w-full">
+                        </figure>
+                        <h3 class="text-xl text-black mb-[11px]">Lucra Mortgages</h3>
+                        <p class="md:w-[47%] w-[65%]">Bringing a sustainable consumer brand to life,from idea to exceeding sales targets</p>
+                    </div>
+                    <div class="col-[1/-1]">
+                        <figure class="mb-[25px]">
+                            <img src="assets/images/service-img3.png" alt="service-img" class="w-full">
+                        </figure>
+                        <h3 class="text-xl text-black mb-[11px]">Mission Pebble</h3>
+                        <p class="md:w-[23%] w-[41%]">Bringing a sustainable consumer brand to life,from idea to exceeding sales targets</p>
+                    </div>
+                    <div>
+                        <figure class="mb-[25px]">
+                            <img src="assets/images/service-img4.png" alt="service-img" class="w-full">
+                        </figure>
+                        <h3 class="text-xl text-black mb-[20px]">Mission Pebble</h3>
+                        <p class="md:w-[45%] w-[65%]">Bringing a sustainable consumer brand to life,from idea to exceeding sales targets</p>
+                    </div>
+                    <div>
+                        <figure class="mb-[25px]">
+                            <img src="assets/images/service-img5.png" alt="service-img" class="w-full">
+                        </figure>
+                        <h3 class="text-xl text-black mb-[11px]">Lucra Mortgages</h3>
+                        <p class=" md:w-[45%] w-[65%]">Bringing a sustainable consumer brand to life,from idea to exceeding sales targets</p>
+                    </div>
                 </div>
-                <div class="col-[1/-1]">
-                    <figure class="mb-[26px]">
-                        <img src="assets/images/service-img3.png" alt="service-img" class="w-full">
-                    </figure>
-                    <h3 class="text-xl text-black mb-[20px]">Mission Pebble</h3>
-                    <p class="w-[41%]">Bringing a sustainable consumer brand to life,from idea to exceeding sales targets</p>
+                <div class="text-center w-full float-left mb-[8px]">
+                    <a href="#" class="text-sm leading-13 text-black border-[1px] border-solid border-[#F5A54F] inline-block rounded-[21px] 
+                    pl-[22px] pr-[12px] pt-[10px] pb-[11px] hover:text-light-white hover:bg-[#F5A54F]
+                     transition-all duration-[0.6s] ease-in-out hover:-translate-y-[8px]">See all projects</a>
                 </div>
-                <div>
-                    <figure class="mb-[26px]">
-                        <img src="assets/images/service-img4.png" alt="service-img" class="w-full">
-                    </figure>
-                    <h3 class="text-xl text-black mb-[20px]">Mission Pebble</h3>
-                    <p class=" w-[41%]">Bringing a sustainable consumer brand to life,from idea to exceeding sales targets</p>
-                </div>
-                <div>
-                    <figure class="mb-[26px]">
-                        <img src="assets/images/service-img5.png" alt="service-img" class="w-full">
-                    </figure>
-                    <h3 class="text-xl text-black mb-[20px]">Lucra Mortgages</h3>
-                    <p class=" w-[41%]">Bringing a sustainable consumer brand to life,from idea to exceeding sales targets</p>
-                </div>
-            </div>
-            <div class="text-center w-full float-left mb-[11px]">
-                <a href="#" class="text-sm leading-13 text-black border-[1px] border-solid border-[#F5A54F] inline-block rounded-[21px] px-[17px] pt-[10px] pb-[11px] hover:text-light-white hover:bg-[#F5A54F]">See all projects</a>
-            </div>
+                <div class="clear-both"></div>
+        </div>
+        <div class="w-full float-left marquee flex truncate">
+            <h3 class="lg:text-7xl text-[100px] text-black md:leading-[186px] leading-[123px]
+             larkenvariableroman font-black tracking-[1.9px]
+              text-dark-yellow text-[#f2ebd9] opacity-10 text-center xl:mb-[130px] lg:mb-[90px] md:mb-[70px] mb-[50px] pl-[67px]">Start a project</h3>
+            <h3 class="lg:text-7xl text-[100px] text-black md:leading-[186px] leading-[123px] larkenvariableroman
+             font-black tracking-[1.9px] text-dark-yellow text-[#f2ebd9]
+              opacity-10 text-center xl:mb-[130px] lg:mb-[90px] md:mb-[70px] mb-[50px] pl-[67px]">Start a project</h3>
+            <h3 class="lg:text-7xl text-[100px] text-black md:leading-[186px] leading-[123px] larkenvariableroman font-black tracking-[1.9px] text-dark-yellow text-[#f2ebd9]
+             opacity-10 text-center xl:mb-[130px] lg:mb-[90px] md:mb-[70px] mb-[50px]">Start a project</h3>
         </div>
         <div class="w-full float-left">
-            <h3 class="text-7xl text-black leading-[186px] larkenvariableroman font-black tracking-[1.9px] text-dark-yellow text-[#f2ebd9] opacity-10 text-center mb-[130px]">Start a project</h3>
-        </div>
-        <div class="w-full float-left">
-            <div class="container mx-auto">
-                <div class="grid grid-cols-3 gap-[30px] mb-[48px]">
-                    <div class="bg-dark-yellow rounded-[5px] pt-[26px] pb-[44px] px-[40px]">
-                        <figure class="mb-[52px]">
-                            <img src="assets/images/brand-icon.gif" alt="brand-icon" class="w-[160px] mx-auto">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-3 lg:gap-[40px] md:gap-[20px] gap-[10px] mb-[48px]">
+                    <div class="bg-dark-yellow rounded-[5px] md:pt-[26px] pt-[18px] lg:pb-[44px] pb-[20px] lg:px-[40px] px-5">
+                        <figure class="lg:mb-[47px] mb-[20px]">
+                            <img src="assets/images/brand-icon.gif" alt="brand-icon" class="lg:w-[160px] w-[130px] mx-auto">
                         </figure> 
-                        <h3 class="mb-[34px] larkenvariableroman text-white text-4xl font-semibold w-[88%]">Brand</h3>
-                        <p class="text-xsm text-black leading-17 mb-[23px] w-[78%]">We get to the heart of your business to develop effective brand strategies and identities that truly represent your values.</p>
-                        <ul class="list-disc text-black">
+                        <h3 class="lg:mb-[36px] md:mb-[25px] mb-[20px] larkenvariableroman text-white lg:text-4xl md:text-[38px] text-[28px] font-semibold md:w-[88%] w-full">Brand</h3>
+                        <p class="text-xsm text-black leading-17 mb-[18px] w-[84%]">We get to the heart of your business to develop effective brand strategies and identities that truly represent your values.</p>
+                        <ul class="list-disc text-black pl-[18px]">
                             <li class="text-xsm leading-17">Brand guidelines</li>
                             <li class="text-xsm leading-17">Logos</li>
                             <li class="text-xsm leading-17">Illustration</li>
@@ -133,13 +150,13 @@
                             <li class="text-xsm leading-17">3D</li>
                         </ul>
                     </div>
-                    <div class="bg-light-gray rounded-[5px] pt-[26px] pb-[44px] px-[40px]">
-                        <figure class="mb-[52px]">
-                            <img src="assets/images/dgitalexperence-icon.gif" alt="marketing-icon" class="w-[160px] mx-auto"> 
+                    <div class="bg-light-gray rounded-[5px] md:pt-[26px] pt-[18px] lg:pb-[44px] pb-[20px] lg:px-[40px] px-5">
+                        <figure class="lg:mb-[47px] mb-[20px]">
+                            <img src="assets/images/dgitalexperence-icon.gif" alt="marketing-icon" class="lg:w-[160px] w-[130px] mx-auto"> 
                         </figure> 
-                        <h3 class="mb-[34px] larkenvariableroman text-white text-4xl font-semibold w-[88%] leading-[40px]">Digital experience</h3>
-                        <p class="text-xsm text-black leading-17 mb-[23px] w-[78%]">We create technically advanced and strategic websites, apps, systems & experiences to help you achieve your business objectives.</p>
-                        <ul class="list-disc text-black">
+                        <h3 class="lg:mb-[34px] md:mb-[25px] mb-[20px] larkenvariableroman text-white lg:text-4xl md:text-[38px] text-[28px] md:leading-[40px] leading-[33px] font-semibold md:w-[88%] w-full">Digital experience</h3>
+                        <p class="text-xsm text-black leading-17 mb-[23px] w-[84%]">We create technically advanced and strategic websites, apps, systems & experiences to help you achieve your business objectives.</p>
+                        <ul class="list-disc text-black pl-[18px]">
                             <li class="text-xsm leading-17">Website/UI design</li>
                             <li class="text-xsm leading-17">Website development</li>
                             <li class="text-xsm leading-17">UX design</li>
@@ -147,13 +164,13 @@
                             <li class="text-xsm leading-17">Software/Systems</li>
                         </ul>
                     </div>
-                    <div class="bg-[#171716] rounded-[5px] pt-[26px] pb-[44px] px-[40px]">
-                        <figure class="mb-[52px]">
-                            <img src="assets/images/marketing-icon.gif" alt="dgitalexperence-icon" class="w-[160px] mx-auto">
+                    <div class="bg-[#171716] rounded-[5px] md:pt-[26px] pt-[18px] lg:pb-[44px] pb-[20px] lg:px-[40px] px-5">
+                        <figure class="lg:mb-[47px] mb-[20px]">
+                            <img src="assets/images/marketing-icon.gif" alt="dgitalexperence-icon" class="lg:w-[160px] w-[130px] mx-auto">
                         </figure> 
-                        <h3 class="mb-[34px] larkenvariableroman text-light-white text-4xl font-semibold w-[88%]">Marketing</h3>
-                        <p class="text-xsm text-white leading-17 mb-[23px] w-[78%]">Creative and strategic marketing campaigns that drive engagement and increase sales.</p>
-                        <ul class="list-disc">
+                        <h3 class="lg:mb-[34px] md:mb-[25px] mb-[20px] larkenvariableroman text-light-white lg:text-4xl md:text-[38px] text-[28px] font-semibold md:w-[88%] w-full">Marketing</h3>
+                        <p class="text-xsm text-white leading-17 mb-[23px] w-[84%]">Creative and strategic marketing campaigns that drive engagement and increase sales.</p>
+                        <ul class="list-disc pl-[18px]">
                             <li class="text-xsm leading-17 text-white">Strategy</li>
                             <li class="text-xsm leading-17 text-white">Campaigns</li>
                             <li class="text-xsm leading-17 text-white">Emails</li>
@@ -166,14 +183,16 @@
                     </div>
                 </div>
                 <div class="text-center w-full float-left">
-                    <a href="#" class="hover:text-light-white hover:bg-[#F5A54F] text-sm leading-13 text-black border-[1px] border-solid border-[#F5A54F] inline-block rounded-[21px] px-[17px] pt-[10px] pb-[11px]">See all services</a>
+                    <a href="#" class="hover:text-light-white hover:bg-[#F5A54F] text-sm 
+                    leading-13 text-black border-[1px] border-solid border-[#F5A54F] inline-block
+                     rounded-[21px] pl-[22px] pr-[12px] pt-[10px] pb-[11px] transition-all duration-[0.6s] ease-in-out hover:-translate-y-[8px]">See all services</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="w-full float-left">
-        <div class="container mx-auto">
-            <h3 class="text-7xl text-black leading-[151px] larkenvariableroman font-black tracking-[1.9px] text-dark-yellow text-[#dadada] ml-[-90px] text-[151.2px]">Journal</h3>
+    <section class=" w-full float-left pt-[88px]">
+        <div class="container mx-auto xl:px-0 px-4">
+            <h3 class="text-7xl leading-[151px] larkenvariableroman font-black tracking-[1.9px] text-[#dadada] ml-[-90px] text-[151.2px]">Journal</h3>
             <div class="blaze-slider float-left w-full mt-[-48px]" id="blaze-slider1">
                 <div class="blaze-container">
                   <div class="blaze-track-container">
@@ -263,12 +282,12 @@
             </div>
         </div>
     </section>
-    <footer class="bg-[#2C2C2C] float-left w-full pt-[148px] pb-[22px]">
-     <div class="container mx-auto">
-        <div class="flex">
-            <div class="flex justify-between w-[58.5%]">
-                <div class="w-[45%]">
-                    <h3 class="text-2xl leading-[33px] text-light-white mb-[34px]">
+    <footer class="bg-[#2C2C2C] float-left w-full xl:pt-[144px] lg:pt-[100px] md:pt-[80px] sm:pt-[60px] pt-[60px] pb-[22px]">
+     <div class="container mx-auto xl:px-0 px-4">
+        <div class="md:flex xl:mb-[107px] lg:mb-[70px] md:mb-[60px] sm:mb-[40px]">
+            <div class="flex justify-between lg:w-[73.5%] md:w-full mb-[30px]">
+                <div class="w-[46%]">
+                    <h3 class="lg:text-2xl md:text-[18px] text-[18px] leading-[33px] text-light-white mb-[34px]">
                         Strategy-led brand and 
                         digital experience agency
                         </h3>
@@ -277,49 +296,51 @@
                         </div>
                 </div>
     
-                <div class="pr-[73px]">
+                <div class="md:pr-[73px] site-map-col">
                     <ul class="unstyle">
-                        <li><a href="#" class="inline-block mb-[29px] text-base text-light-white hover:text-[#FFA156]">Projects</a></li>
-                        <li><a href="#" class="inline-block mb-[29px] text-base text-light-white hover:text-[#FFA156]">Services</a></li>
-                        <li><a href="#" class="inline-block mb-[29px] text-base text-light-white hover:text-[#FFA156]">About us</a></li>
-                        <li><a href="#" class="inline-block mb-[29px] text-base text-light-white hover:text-[#FFA156]">Journal</a></li>
-                        <li><a href="#" class="inline-block mb-[29px] text-base text-light-white hover:text-[#FFA156]">Careers <span class="inline-block bg-[#FFA156] w-[19px] h-[19px] rounded-[50%] relative top-[4px]"></span></a></li>
-                        <li><a href="#" class="inline-block mb-[29px] text-base text-light-white hover:text-[#FFA156]">Contact</a></li>
+                        <li><a href="#" class="inline-block xl:mb-[29px] lg:mb-[22px] md:mb-[18px] mb-[18px] text-base text-light-white hover:text-[#FFA156] relative">Projects</a></li>
+                        <li><a href="#" class="inline-block xl:mb-[29px] lg:mb-[22px] md:mb-[18px] mb-[18px] text-base text-light-white hover:text-[#FFA156] relative">Services</a></li>
+                        <li><a href="#" class="inline-block xl:mb-[29px] lg:mb-[22px] md:mb-[18px]  mb-[18px]  text-base text-light-white hover:text-[#FFA156] relative">About us</a></li>
+                        <li><a href="#" class="inline-block xl:mb-[29px] lg:mb-[22px] md:mb-[18px]  mb-[18px] text-base text-light-white hover:text-[#FFA156] relative">Journal</a></li>
+                        <li><a href="#" class="inline-block xl:mb-[29px] lg:mb-[22px] md:mb-[18px] mb-[18px] text-base text-light-white hover:text-[#FFA156] relative">Careers <span class="inline-block bg-[#FFA156] w-[19px] h-[19px] rounded-[50%] relative top-[4px]"></span></a></li>
+                        <li><a href="#" class="inline-block text-base text-light-white hover:text-[#FFA156] relative">Contact</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="flex justify-between w-[42.5%]">
-                <div class="pr-[35px]">
+            <div class="flex justify-between lg:w-[42.5%] md:w-full">
+                <div class="pr-[35px] site-map-col">
                     <ul class="unstyle">
-                        <li><a href="#" class="inline-block mb-[29px] text-base text-light-white hover:text-[#FFA156]">Instagram</a></li>
-                        <li><a href="#" class="inline-block mb-[29px] text-base text-light-white hover:text-[#FFA156]">Linkedin</a></li>
-                        <li><a href="#" class="inline-block mb-[29px] text-base text-light-white hover:text-[#FFA156]">Twitter</a></li>
-                        <li><a href="#" class="inline-block mb-[29px] text-base text-light-white hover:text-[#FFA156]">Newsletter</a></li>
+                        <li><a href="#" class="inline-block xl:mb-[29px] lg:mb-[22px] md:mb-[18px] mb-[18px]  text-base text-light-white hover:text-[#FFA156] relative">Instagram</a></li>
+                        <li><a href="#" class="inline-block xl:mb-[29px] lg:mb-[22px] md:mb-[18px] mb-[18px] text-base text-light-white hover:text-[#FFA156] relative">Linkedin</a></li>
+                        <li><a href="#" class="inline-block xl:mb-[29px] lg:mb-[22px] md:mb-[18px] mb-[18px] text-base text-light-white hover:text-[#FFA156] relative">Twitter</a></li>
+                        <li><a href="#" class="inline-block text-base text-light-white hover:text-[#FFA156] relative">Newsletter</a></li>
                     </ul>
                 </div>
-                <div class="pr-[35px]">
-                    <div>
-                        <a href="#" class="inline-block mb-[29px] text-base text-light-white hover:text-[#FFA156]">+44(0) 1225 445 427</a>
+                <div class="md:pr-[42px]">
+                    <div class="site-map-col2">
+                        <a href="#" class="inline-block mb-[21px] text-base text-light-white hover:text-[#FFA156] relative">+44(0) 1225 445 427</a>
                     </div>
-                    <div>
-                        <a href="#" class="inline-block mb-[29px] text-base text-light-white hover:text-[#FFA156]">enquiries@lionhouse.com</a>
+                    <div class="site-map-col2">
+                        <a href="#" class="inline-block xl:mb-[33px] lg:mb-[22px] md:mb-[18px] text-base text-light-white hover:text-[#FFA156] relative">enquiries@lionhouse.com</a>
                     </div>
                         <div class="text-light-white text-base leading-[23px]">
                             <h6 class="">Head office:</h6>
-                            <p>
+                            <p class="max-w-[84%]">
                                 4 River Street place
                                 Bath</p>
-                            <small class="inline-block">BA1 2RS</small>
+                            <small class="inline-block text-base">BA1 2RS</small>
                         </div>
                 </div>
             </div>
         </div>
-        <h3 class="text-8xl text-black leading-[262px] larkenvariableroman font-black relative z-10">Lionhouse</h3>
-        <ul class="float-right">        
-            <li class="inline-block"><a href="#" class="text-light-white text-xxsm hover:text-[#FFA156]">Cookie policy</a></li>
-            <li class="inline-block pl-[43px] pr-[45px]"><a href="#" class="text-light-white text-xxsm hover:text-[#FFA156]">Privacy Policy</a></li>
-            <li class="inline-block text-light-white text-xxsm">©Lionhouse 2023</li>
-        </ul>
+        <h3 class="2xl:text-8xl lg:text-[200px] md:text-[148px] text-[120px] lg:leading-[202px] md:leading-[145px] sm:leading-[120px] text-black larkenvariableroman font-black relative z-10">Lionhouse</h3>
+        <div class="site-map-col">
+            <ul class="float-right">        
+                <li class="inline-block"><a href="#" class="text-light-white text-xxsm hover:text-[#FFA156] relative">Cookie policy</a></li>
+                <li class="inline-block pl-[33px] pr-[35px]"><a href="#" class="text-light-white text-xxsm hover:text-[#FFA156] relative">Privacy Policy</a></li>
+                <li class="inline-block text-light-white text-xxsm">©Lionhouse 2023</li>
+            </ul>
+        </div>
      </div>
     </footer>
     <script type="module" src="/assets/js/main.js"></script>

@@ -2,8 +2,22 @@ import '../css/style.css';
 
 import BlazeSlider from 'blaze-slider';
 import 'blaze-slider/dist/blaze.css';
+import 'animate.css';
+import WOW from 'wow.js';
 
 (function() {
+
+
+  const wow = new WOW(
+    {
+    boxClass:     'wow',      // default
+    animateClass: 'animated', // default
+    offset:       0,          // default
+    mobile:       true,       // default
+    live:         true        // default
+  }
+  )
+  wow.init();
 
 
 const ell = document.querySelector('#blaze-slider2');
@@ -14,6 +28,7 @@ new BlazeSlider(ell, {
     autoplayInterval: 2000,
     transitionDuration: 300,
     slidesToShow: 6,
+    slideGap: '42px',
   },
   '(max-width: 900px)': {
     slidesToShow: 2,
