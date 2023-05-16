@@ -209,3 +209,12 @@
  /***Volume Control***/
 
  
+ 
+ @font-face {
+  font-family: "LarkenVariableRoman";
+  src: url('../fonts/font.woff2') format('woff2'), 
+  url('../fonts/font.woff') format('woff');
+}
+.larkenvariableroman{
+  font-family: "LarkenVariableRoman";
+}
