@@ -62,7 +62,7 @@ new BlazeSlider(ell, {
   '(max-width: 900px)': {
     slidesToShow: 4,
   },
-  '(max-width: 500px)': {
+  '(max-width: 639px)': {
     slidesToShow: 2,
   },
 })
