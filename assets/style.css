@@ -423,8 +423,17 @@ video {
 .fixed{
   position: fixed;
 }
+.absolute{
+  position: absolute;
+}
 .relative{
   position: relative;
+}
+.bottom-0{
+  bottom: 0px;
+}
+.top-0{
+  top: 0px;
 }
 .top-\[38px\]{
   top: 38px;
@@ -437,6 +446,9 @@ video {
 }
 .z-\[9999\]{
   z-index: 9999;
+}
+.z-\[999\]{
+  z-index: 999;
 }
 .col-\[1\/-1\]{
   grid-column: 1/-1;
@@ -468,6 +480,9 @@ video {
 }
 .mb-\[12px\]{
   margin-bottom: 12px;
+}
+.mb-\[15px\]{
+  margin-bottom: 15px;
 }
 .mb-\[169px\]{
   margin-bottom: 169px;
@@ -535,6 +550,9 @@ video {
 .mt-\[-39px\]{
   margin-top: -39px;
 }
+.mt-auto{
+  margin-top: auto;
+}
 .block{
   display: block;
 }
@@ -561,6 +579,9 @@ video {
 }
 .h-\[55px\]{
   height: 55px;
+}
+.h-full{
+  height: 100%;
 }
 .w-\[100\%\]{
   width: 100%;
@@ -591,6 +612,9 @@ video {
 }
 .max-w-\[84\%\]{
   max-width: 84%;
+}
+.cursor-pointer{
+  cursor: pointer;
 }
 .list-disc{
   list-style-type: disc;
@@ -670,6 +694,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(248 243 228 / var(--tw-bg-opacity));
 }
+.bg-orange{
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 165 79 / var(--tw-bg-opacity));
+}
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -748,11 +776,17 @@ video {
 .pr-\[54px\]{
   padding-right: 54px;
 }
+.pr-\[69px\]{
+  padding-right: 69px;
+}
 .pt-\[105px\]{
   padding-top: 105px;
 }
 .pt-\[10px\]{
   padding-top: 10px;
+}
+.pt-\[190px\]{
+  padding-top: 190px;
 }
 .pt-\[222px\]{
   padding-top: 222px;
@@ -795,6 +829,9 @@ video {
 }
 .text-\[45px\]{
   font-size: 45px;
+}
+.text-\[60px\]{
+  font-size: 60px;
 }
 .text-\[65px\]{
   font-size: 65px;
@@ -868,6 +905,9 @@ video {
 .leading-\[50px\]{
   line-height: 50px;
 }
+.leading-\[65px\]{
+  line-height: 65px;
+}
 .leading-\[68px\]{
   line-height: 68px;
 }
@@ -879,6 +919,9 @@ video {
 }
 .leading-\[90px\]{
   line-height: 90px;
+}
+.tracking-\[\.4px\]{
+  letter-spacing: .4px;
 }
 .tracking-\[1\.9px\]{
   letter-spacing: 1.9px;
@@ -1115,6 +1158,13 @@ html:not(.playvideo) .sound-ctrl {
 }
 .larkenvariableroman{
   font-family: "LarkenVariableRoman";
+}
+.border-outline{
+  -webkit-text-fill-color: #F5A54F;
+    -webkit-text-stroke: 1px #fff;
+}
+#checked:checked ~ .header-menu{
+  display: block;
 }
 .after\:absolute::after{
   content: var(--tw-content);
@@ -1505,6 +1555,9 @@ html:not(.playvideo) .sound-ctrl {
   .lg\:mb-\[160px\]{
     margin-bottom: 160px;
   }
+  .lg\:mb-\[20px\]{
+    margin-bottom: 20px;
+  }
   .lg\:mb-\[22px\]{
     margin-bottom: 22px;
   }
@@ -1612,6 +1665,12 @@ html:not(.playvideo) .sound-ctrl {
   }
 }
 @media (min-width: 1280px){
+  .xl\:mb-\[18px\]{
+    margin-bottom: 18px;
+  }
+  .xl\:mb-\[20px\]{
+    margin-bottom: 20px;
+  }
   .xl\:mb-\[230px\]{
     margin-bottom: 230px;
   }

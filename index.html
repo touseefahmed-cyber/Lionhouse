@@ -11,6 +11,8 @@
 <body>
   
 <body class="text-sm font-space-mono leading-18 text-light-silver">
+   
+    <input type="checkbox" class="hidden" id="checked">
   <header class="w-full float-left fixed sm:top-[48px] top-[38px] z-[9999]">
       <div class="container mx-auto xl:px-0 sm:px-4 pl:[14px] pr-[21px]">
           <nav class="flex justify-between items-center">
@@ -27,13 +29,63 @@
               <div class="site-map-col">
                   <ul>
                       <li class="inline-block"><a href="#" class="text-light-white mr-[47px] hover:text-[#FFA156] relative lg:inline-block md:hidden sm:hidden hidden">Projects</a></li>
-                      <li class="inline-block"><a href="#" class="text-light-white hover:text-[#FFA156] relative">Menu 
-                          <span class="inline-block bg-[#FFA156] sm:w-[19px] sm:h-[19px] w-[15.46px] h-[15.46px] rounded-[50%] relative top-[4px]"></span></a></li>
+                      <li class="inline-block"><a href="#" class="text-light-white hover:text-[#FFA156] relative">
+                        <label for="checked" class="cursor-pointer">Menu 
+                            <span class="inline-block bg-[#FFA156] sm:w-[19px] sm:h-[19px] w-[15.46px] h-[15.46px] rounded-[50%] relative top-[4px]"></span></label></a>
+                      </li>
                   </ul>
               </div>
           </nav>
       </div>
   </header>
+  <div class="float-left w-full bg-orange pt-[190px] h-full hidden header-menu fixed top-0 z-[999]">
+    <div class="container mx-auto">
+            <div class="flex justify-between">
+                <div class="flex ">
+                    <div class="pr-[69px]">
+                        <ul class="unstyle">
+                            <li><a href="#" class="inline-block xl:mb-[20px] lg:mb-[20px] md:mb-[18px] mb-[18px] text-base
+                                 text-black hover:text-[#FFA156] relative">Instagram</a></li>
+                            <li><a href="#" class="inline-block xl:mb-[20px] lg:mb-[22px] md:mb-[18px] mb-[18px] text-base text-black hover:text-[#FFA156] relative">Linkedin</a></li>
+                            <li><a href="#" class="inline-block xl:mb-[18px] lg:mb-[22px] md:mb-[18px] mb-[18px] text-base text-black hover:text-[#FFA156] relative">Twitter</a></li>
+                            <li><a href="#" class="inline-block text-base text-black hover:text-[#FFA156] relative">Newsletter</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="site-map-col2">
+                            <a href="#" class="inline-block mb-[21px] text-base text-black hover:text-[#FFA156] relative">+44(0) 1225 445 427</a>
+                        </div>
+                        <div class="site-map-col2">
+                            <a href="#" class="inline-block mb-[18px] text-base text-black hover:text-[#FFA156] relative">enquiries@lionhouse.com</a>
+                        </div>
+                            <div class="text-black text-base leading-[23px]">
+                                <h6 class="">Head office:</h6>
+                                <p class="max-w-[84%]">
+                                    4 River Street place
+                                    Bath</p>
+                                <small class="inline-block text-base">BA1 2RS</small>
+                            </div>
+                    </div>
+
+                </div>
+                    <div>
+                        <ul class="unstyle">
+                            <li><a href="#" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[20px] text-black">Projects</a></li>
+                            <li><a href="#" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[11px] text-black">Services</a></li>
+                            <li><a href="#" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[12px] text-black">About us</a></li>
+                            <li><a href="#" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[15px] text-black">Journal</a></li>
+                            <li><a href="#" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block text-black">Contact</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="w-full mt-auto">
+                <h2 class="2xl:text-8xl xl:text-[250px] lg:text-[200px] md:text-[145px] sm:text-[123px] text-[70px]
+               md:leading-[184px] sm:leading-[125px] leading-[85px] text-center larkenvariableroman font-black
+             xl:ml-[-32px] wow slideInLeft border-outline absolute bottom-0">Lionhouse</h1>
+            </div>
+    </div>
+</div>
   <section class="bg-[#2C2C2C] w-full float-left 2xl:pt-[380px] xl:pt-[340px] lg:pt-[300px]
    md:pt-[250px] pt-[222px] md:pb-[100px] sm:pb-[90px] pb-[60px] relative 
   after:absolute sm:after:bg-[url('./images/layout-bgimg.png')] after:bg-[url('./images/layout-mobile-img.png')] after:content-['']
