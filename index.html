@@ -11,7 +11,6 @@
 <body>
   
 <body class="text-sm font-space-mono leading-18 text-light-silver">
-   
     <input type="checkbox" class="hidden" id="checked">
   <header class="w-full float-left fixed sm:top-[48px] top-[38px] z-[9999]">
       <div class="container mx-auto xl:px-0 sm:px-4 pl:[14px] pr-[21px]">
@@ -30,7 +29,7 @@
                   <ul>
                       <li class="inline-block"><a href="#" class="text-light-white mr-[47px] hover:text-[#FFA156] relative lg:inline-block md:hidden sm:hidden hidden">Projects</a></li>
                       <li class="inline-block"><a href="#" class="text-light-white hover:text-[#FFA156] relative">
-                        <label for="checked" class="cursor-pointer">Menu 
+                        <label for="checked" class="cursor-pointer hamburger-toggle">Menu 
                             <span class="inline-block bg-[#FFA156] sm:w-[19px] sm:h-[19px] w-[15.46px] h-[15.46px] rounded-[50%] relative top-[4px]"></span></label></a>
                       </li>
                   </ul>
@@ -38,7 +37,8 @@
           </nav>
       </div>
   </header>
-  <div class="float-left w-full bg-orange pt-[190px] h-full hidden header-menu fixed top-0 z-[999]">
+  <div class="navigation__background"></div>
+  <div class="float-left w-full pt-[190px] h-full header-menu fixed top-0 z-[999]">
     <div class="container mx-auto">
             <div class="flex justify-between">
                 <div class="flex ">
@@ -86,7 +86,7 @@
             </div>
     </div>
 </div>
-  <section class="bg-[#2C2C2C] w-full float-left 2xl:pt-[380px] xl:pt-[340px] lg:pt-[300px]
+  <section id="banner" class="bg-[#2C2C2C] w-full float-left 2xl:pt-[380px] xl:pt-[340px] lg:pt-[300px]
    md:pt-[250px] pt-[222px] md:pb-[100px] sm:pb-[90px] pb-[60px] relative 
   after:absolute sm:after:bg-[url('./images/layout-bgimg.png')] after:bg-[url('./images/layout-mobile-img.png')] after:content-['']
    lg:after:w-[710px]  lg:after:h-[853px] sm:after:h-[650px] after:h-[462px] sm:after:w-[450px] after:w-[347px] sm:after:bottom-0 after:bottom-[15%] after:right-0 sm:after:opacity-[10%]" >
@@ -416,5 +416,7 @@
 </body>
 
 <script src="https://unpkg.com/blaze-slider@0.1.6/dist/blaze-slider.min.js"></script>
+<script src="./assets/js/gsap-latest-beta.min.js"></script>
+<script src="./assets/js/tScrollTrigger.min.js"></script>
 <script src="./assets/index.js"></script>
 </html>

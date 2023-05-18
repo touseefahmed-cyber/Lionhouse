@@ -1,9 +1,4 @@
-console.log('hello');
-
-
 (function() {
-
-    
 //Video Play Pause Control Start
 let playButton = document.getElementById("play_button");
 let pauseButton = document.getElementById("pause_button");
@@ -51,7 +46,7 @@ new BlazeSlider(ell, {
   all: {
     autoplayDirection: 'to Right',
     enableAutoplay: true,
-    autoplayInterval: 1000,
+    autoplayInterval: 500,
     transitionDuration: 300,
     slidesToShow: 6,
     slideGap: '42px',
@@ -67,6 +62,8 @@ new BlazeSlider(ell, {
   },
 })
 
+
+//****************************** */
 
 
 const el = document.querySelector('#blaze-slider1');
@@ -88,4 +85,56 @@ new BlazeSlider(el, {
 
 
 
+//****************************** */
+const body = document.body;
+const triggerMenu = document.querySelector(".page-header");
+const scrollUp = "scroll-up";
+const scrollDown = "scroll-down";
+let lastScroll = 0;
+
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
+  if (currentScroll <= 100) {
+    body.classList.remove(scrollUp);
+    return;
+  }
+
+  if (currentScroll > lastScroll && !body.classList.contains(scrollDown)) {
+    // down
+    body.classList.remove(scrollUp);
+    body.classList.add(scrollDown);
+  } else if (
+    currentScroll < lastScroll &&
+    body.classList.contains(scrollDown)
+  ) {
+    // up
+    body.classList.remove(scrollDown);
+    body.classList.add(scrollUp);
+  }
+  lastScroll = currentScroll;
+});
+
+//****************************** */
+/*
+var tl = gsap.timeline({scrollTrigger:{
+  trigger:"#banner",
+   markers:true,
+  start:"20% 50%",
+  end:"30% 50%",
+  scrub:2,
+  pin:true
+}});
+tl.to(".banner-heading",{
+  y: -300
+},'a')
+
+
+
+**/
 })();
+
+const $body = document.querySelector('body');
+const toggleOffcanvas = () => {
+    $body.classList.toggle('has-offcanvas');
+}
+document.querySelector('.hamburger-toggle').addEventListener('click', toggleOffcanvas);
