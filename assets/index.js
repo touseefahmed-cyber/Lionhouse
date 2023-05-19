@@ -115,9 +115,9 @@ window.addEventListener("scroll", () => {
 });
 
 //****************************** */
-/*
+
 var tl = gsap.timeline({scrollTrigger:{
-  trigger:"#banner",
+  trigger:".upper-video-sec",
    markers:true,
   start:"20% 50%",
   end:"30% 50%",
@@ -125,12 +125,16 @@ var tl = gsap.timeline({scrollTrigger:{
   pin:true
 }});
 tl.to(".banner-heading",{
-  y: -300
+  y: -70
+},'a')
+tl.to(".banner-heading-before",{
+  y: -70
 },'a')
 
 
 
-**/
+
+
 })();
 
 const $body = document.querySelector('body');
