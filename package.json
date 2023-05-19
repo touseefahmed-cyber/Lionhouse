@@ -9,16 +9,16 @@
   },
   "dependencies": {
     "autoprefixer": "^9.7.6",
-    "cssnano": "^4.1.10",
+    "blaze-slider": "^1.9.3",
+    "cssnano": "^6.0.1",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^7.1.1",
     "postcss-import": "^12.0.1",
-    "blaze-slider": "^1.9.3",
     "tailwindcss": "^3.3.1",
     "wow.js": "^1.2.2"
   },
   "devDependencies": {
-    "get-google-fonts": "^1.2.2",
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.26.7",
+    "get-google-fonts": "^1.2.2"
   }
 }

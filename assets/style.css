@@ -574,9 +574,6 @@ video {
 .h-\[19px\]{
   height: 19px;
 }
-.h-\[287px\]{
-  height: 287px;
-}
 .h-\[55px\]{
   height: 55px;
 }
@@ -693,10 +690,6 @@ video {
 .bg-light-yellow{
   --tw-bg-opacity: 1;
   background-color: rgb(248 243 228 / var(--tw-bg-opacity));
-}
-.object-cover{
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 .px-4{
   padding-left: 1rem;
@@ -1006,11 +999,11 @@ a:hover {
 .site-map-col ul li a:hover::after,.site-map-col2 a:hover::after {
   width: 100%;
 }
-.video-custom .poster-img {
+/* .video-custom .poster-img {
   display: block;
   width: 100%;
- }
-.video-custom video {
+ } */
+/* .video-custom video {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -1018,8 +1011,8 @@ a:hover {
   width: 100%;
   height: 100%;
   opacity: 0;
- }
-.video-custom .play-btn, .video-custom .pause-btn {
+ } */
+/* .video-custom .play-btn, .video-custom .pause-btn {
   position: absolute;
   left: 0px;
   right: 0px;
@@ -1032,19 +1025,12 @@ a:hover {
   cursor: pointer;
   transition: 0.5s all;
   overflow: hidden;
- }
-@keyframes marquee {
-  0%   { transform: translate(0, 0); }
-  100% { transform: translate(-100%, 0); }
-}
-.marquee > h3 {
-  white-space: nowrap;
-  animation: marquee 6s linear infinite; /* Time must be adjusted based on total width of scrolled elements*/
-}
-.video-custom .pause-btn {
+ } */
+/* .video-custom .pause-btn {
   display: none;
  }
-.video-custom .play-btn i {
+ 
+ .video-custom .play-btn i {
   width: 0;
   height: 0;
   border-style: solid;
@@ -1059,7 +1045,8 @@ a:hover {
   top: 0px;
   margin: auto;
  }
-.pause-btn i {
+ 
+ .pause-btn i {
   position: absolute;
   left: -3px;
   right: 0px;
@@ -1070,14 +1057,16 @@ a:hover {
   height: 24px;
   flex-flow: row wrap;
  }
-.pause-btn i:before {
+ 
+ .pause-btn i:before {
   content: '';
   width: 4px;
   height: 100%;
   background-color: #000;
   display: inline-block;
  }
-.pause-btn i:after {
+ 
+ .pause-btn i:after {
   content: '';
   width: 4px;
   height: 100%;
@@ -1085,36 +1074,44 @@ a:hover {
   background-color: #000;
   display: inline-block;
  }
-.playvideo .video-custom img {
+ 
+ .playvideo .video-custom img {
   opacity: 0;
  }
-.playvideo .video-custom video {
+ 
+ .playvideo .video-custom video {
   opacity: 1;
  }
-.video-custom .vplay {
+ 
+ .video-custom .vplay {
   display: none;
  }
-.video-custom:hover .vplay + .pause-btn {
+ 
+ .video-custom:hover .vplay + .pause-btn {
   display: block;
- }
+ } */
 /***Volume Control***/
-html:not(.playvideo) .sound-ctrl {
+/* html:not(.playvideo) .sound-ctrl {
   display: none;
  }
-.sound-ctrl {
+ 
+ .sound-ctrl {
   position: absolute;
   z-index: 2;
   right: 14px;
   bottom: 5px;
   cursor: pointer;
  }
-.sound-ctrl .on-button {
+ 
+ .sound-ctrl .on-button {
   display: none;
  }
-.sound-ctrl img {
+ 
+ .sound-ctrl img {
   opacity: 0;
  }
-.sound-ctrl .off-button, .sound-ctrl .on-button {
+ 
+ .sound-ctrl .off-button, .sound-ctrl .on-button {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -1126,16 +1123,20 @@ html:not(.playvideo) .sound-ctrl {
   padding: 0px;
   cursor: pointer;
  }
-.soundctrlshow .on-button {
+ 
+ .soundctrlshow .on-button {
   display: block;
  }
-.soundctrlshow .off-button {
+ 
+ .soundctrlshow .off-button {
   display: none;
  }
-.playvideo .video-custom .sound-ctrl img {
+ 
+ .playvideo .video-custom .sound-ctrl img {
   opacity: 1;
  }
-.soundctrlshow .on-button:before {
+ 
+ .soundctrlshow .on-button:before {
   content: '';
   position: absolute;
   left: 12px;
@@ -1145,8 +1146,17 @@ html:not(.playvideo) .sound-ctrl {
   height: 32px;
   background-color: #fff;
   transform: rotate(45deg);
- }
+ } */
 /***Volume Control***/
+/******************/
+@keyframes marquee {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+.marquee > h3 {
+  white-space: nowrap;
+  animation: marquee 6s linear infinite; /* Time must be adjusted based on total width of scrolled elements*/
+}
 @font-face {
   font-family: "LarkenVariableRoman";
   src: url('./font.woff2') format('woff2'), 
@@ -1208,6 +1218,26 @@ html:not(.playvideo) .sound-ctrl {
 }
 .has-offcanvas{
   overflow: hidden;
+}
+header figure img{
+  transition: all 0.5s ease-in-out;
+}
+.scroll-up header figure img{
+  transform: rotate(270deg);
+}
+.blink{
+	animation: flash linear 1s infinite;
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+.video-custom .play-pause{
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
 .after\:absolute::after{
   content: var(--tw-content);
@@ -1352,10 +1382,6 @@ html:not(.playvideo) .sound-ctrl {
   }
   .sm\:border-r-\[1\.5px\]{
     border-right-width: 1.5px;
-  }
-  .sm\:object-none{
-    -o-object-fit: none;
-       object-fit: none;
   }
   .sm\:px-0{
     padding-left: 0px;

@@ -1,44 +1,4 @@
-(function() {
-//Video Play Pause Control Start
-let playButton = document.getElementById("play_button");
-let pauseButton = document.getElementById("pause_button");
-playButton.addEventListener("click", function() {
-video.play();
-playButton.classList.add('vplay');
-pauseButton.classList.remove('vpause');
-document.querySelector('html').classList.add('playvideo');
-});
 
-pauseButton.addEventListener("click", function() {
-video.pause();
- playButton.classList.remove('vplay');
-pauseButton.classList.add('vpause');
-});
-
-/*
-//Video Play Pause Control End
-//Video Sound on & off Ctrl Start
-let soundOff = document.getElementById("sound-off");
-let soundOn = document.getElementById("sound-on");
-let soundCtrl = document.querySelector(".sound-ctrl");
-
-soundOff.addEventListener("click", function() {
-video.muted = true;
-soundCtrl.classList.add('soundctrlshow');
-});
-
-soundOn.addEventListener("click", function() {
-video.muted = false;
-soundCtrl.classList.remove('soundctrlshow'); 
-});
-
-
-*/
-//Video Sound on & off Ctrl End
-video.onended = function() {
-  document.querySelector('html').classList.remove('playvideo');
- playButton.classList.remove('vplay');
-};
 
 
 const ell = document.querySelector('#blaze-slider2');
@@ -118,24 +78,27 @@ window.addEventListener("scroll", () => {
 
 var tl = gsap.timeline({scrollTrigger:{
   trigger:".upper-video-sec",
-   markers:true,
+  markers:false,
   start:"20% 50%",
   end:"30% 50%",
   scrub:2,
   pin:true
 }});
 tl.to(".banner-heading",{
-  y: -70
+  y: -120
 },'a')
 tl.to(".banner-heading-before",{
-  y: -70
+  y: -120
+},'a')
+tl.to("#video",{
+  y: -120
 },'a')
 
 
 
 
 
-})();
+
 
 const $body = document.querySelector('body');
 const toggleOffcanvas = () => {
