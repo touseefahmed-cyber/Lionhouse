@@ -13,7 +13,7 @@
 <body class="text-sm font-space-mono leading-18 text-light-silver">
     <!-- HEADER -->
     <input type="checkbox" class="hidden" id="checked">
-  <header class="hidden w-full float-left fixed sm:top-[48px] top-[38px] z-[9999]">
+  <header class=" w-full float-left fixed sm:top-[48px] top-[38px] z-[9999]">
       <div class="container mx-auto xl:px-0 sm:px-4 pl:[14px] pr-[21px]">
           <nav class="flex justify-between items-center">
               <div class="lg:inline-block md:hidden sm:hidden hidden"> 
@@ -38,7 +38,74 @@
           </nav>
       </div>
   </header>
+
+  <div class="navigation__background"></div>
+  <div class="float-left w-full pt-[190px] h-full header-menu fixed top-0 z-[999]">
+    <div class="container mx-auto">
+            <div class="flex justify-between">
+                <div class="flex ">
+                    <div class="pr-[69px]">
+                        <ul class="unstyle">
+                            <li><a href="#" class="inline-block xl:mb-[20px] lg:mb-[20px] md:mb-[18px] mb-[18px] text-base
+                                 text-black hover:text-[#FFA156] relative">Instagram</a></li>
+                            <li><a href="#" class="inline-block xl:mb-[20px] lg:mb-[22px] md:mb-[18px] mb-[18px] text-base text-black hover:text-[#FFA156] relative">Linkedin</a></li>
+                            <li><a href="#" class="inline-block xl:mb-[18px] lg:mb-[22px] md:mb-[18px] mb-[18px] text-base text-black hover:text-[#FFA156] relative">Twitter</a></li>
+                            <li><a href="#" class="inline-block text-base text-black hover:text-[#FFA156] relative">Newsletter</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="site-map-col2">
+                            <a href="#" class="inline-block mb-[21px] text-base text-black hover:text-[#FFA156] relative">+44(0) 1225 445 427</a>
+                        </div>
+                        <div class="site-map-col2">
+                            <a href="#" class="inline-block mb-[18px] text-base text-black hover:text-[#FFA156] relative">enquiries@lionhouse.com</a>
+                        </div>
+                            <div class="text-black text-base leading-[23px]">
+                                <h6 class="">Head office:</h6>
+                                <p class="max-w-[84%]">
+                                    4 River Street place
+                                    Bath</p>
+                                <small class="inline-block text-base">BA1 2RS</small>
+                            </div>
+                    </div>
+
+                </div>
+                    <div>
+                        <ul class="unstyle">
+                            <li><a href="#" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[20px] text-black">Projects</a></li>
+                            <li><a href="#" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[11px] text-black">Services</a></li>
+                            <li><a href="#" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[12px] text-black">About us</a></li>
+                            <li><a href="#" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[15px] text-black">Journal</a></li>
+                            <li><a href="#" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block text-black">Contact</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="w-full mt-auto">
+                <h2 class="2xl:text-8xl xl:text-[250px] lg:text-[200px] md:text-[145px] sm:text-[123px] text-[70px]
+               md:leading-[184px] sm:leading-[125px] leading-[85px] text-center larkenvariableroman font-black
+             xl:ml-[-32px] wow slideInLeft border-outline absolute bottom-0">Lionhouse</h1>
+            </div>
+    </div>
+</div>
 <!-- HEADER -->
+<!-- BANNER -->
+<section id="banner" class="bg-[#2C2C2C] w-full float-left pt-[370px]">
+      <div class="container mx-auto xl:px-0 sm:px-4">
+        <div class="pin-spacer">
+          <span class="banner-heading-before text-light-white sm:text-2xl text-[16px] w-[43%]
+           block sm:leading-34 leading-[25px] sm:tracking-normal tracking-wider ml-auto
+            mb-[150px]" style="transform: translate(0px, 0px);">We work wit our clients to define a strategic approach to fulfil their needs. We then provide a breadth of brand, digital and marketing services.</span>
+            <h1 class="banner-heading text-[165px] leading-[170px] mb-[-66px] text-end text-white-yellow 
+             larkenvariableroman font-black wow slideInLeft" style="transform: translate(0px, 0px)">Services</h1>
+        </div>
+      </div>
+  </section>
+<!-- BANNER -->
+
+
+
+
 <section class="float-left w-full bg-dark-yellow pt-[117px] pb-[58px]">
     <div class="container mx-auto xl:px-0 px-4">
         <div class="flex justify-between">
@@ -196,7 +263,7 @@
     </div>
 </section>
 
-<section class="float-left w-full pt-[125px] pb-[50px]">
+<section class="float-left w-full bg-light-white pt-[125px] pb-[50px]">
     <div class="container mx-auto xl:px-0 px-4">
         <div class="flex justify-between">
             <div class="w-[37%]">
@@ -215,30 +282,40 @@
         </div>
     </div>
 </section>
-<section class="float-left w-full pt-[55px]">
+<section class="float-left w-full bg-light-white pt-[55px]">
     <div class="container mx-auto xl:px-0 px-4">
-        <div class="grid grid-cols-3 h-[390px] bg-[url('./images/circule-img.png')] bg-no-repeat bg-center">
-            <div class="h-[287px] flex items-center">
-                <h5 class="text-2xl text-l-black w-20% mx-auto">
+        <div class="grid grid-cols-3 w-[1050px] mb-[84px] mx-auto bg-[url('./images/circule-img.png')] bg-no-repeat bg-center">
+            <div class="h-[390px] flex items-center">
+                <h5 class="text-2xl text-l-black leading-[25px] w-[20%] mx-auto">
                     Business
                     Strategy
                 </h5>
             </div>
-            <div class="h-[287px] flex items-center">
-                <h5 class="text-2xl text-l-black w-20% mx-auto">
+            <div class="h-[390px] flex items-center">
+                <h5 class="text-2xl text-l-black leading-[25px] w-[20%] mx-auto">
                     Brand
                     Strategy
                 </h5>
             </div>
 
-            <div class="h-[287px] flex items-center">
-                <h5 class="text-2xl text-l-black w-20% mx-auto">
+            <div class="h-[390px] flex items-center">
+                <h5 class="text-2xl text-l-black leading-[25px] w-[20%] mx-auto">
                     Marketing
                     Strategy
                 </h5>
             </div>
 
         </div>
+    </div>
+    <div class="w-full float-left marquee flex truncate lg:mb-[132px] sm:mb-[100px] mb-[100px]">
+        <h3 class="lg:text-7xl sm:text-[100px] text-[120px] text-black md:leading-[186px] leading-[123px]
+         larkenvariableroman font-black tracking-[1.9px]
+          text-dark-yellow text-[#f2ebd9] opacity-10 text-center sm:pl-[67px] pl-[45px]">Start a project</h3>
+        <h3 class="lg:text-7xl sm:text-[100px] text-[120px] text-black md:leading-[186px] leading-[123px] larkenvariableroman
+         font-black tracking-[1.9px] text-dark-yellow text-[#f2ebd9]
+          opacity-10 text-center sm:pl-[67px] pl-[45px]">Start a project</h3>
+        <h3 class="lg:text-7xl sm:text-[100px] text-[120px] text-black md:leading-[186px] leading-[123px] larkenvariableroman font-black tracking-[1.9px] text-dark-yellow text-[#f2ebd9]
+         opacity-10 text-center">Start a project</h3>
     </div>
 </section>
 

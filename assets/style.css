@@ -469,6 +469,9 @@ video {
 .mb-4{
   margin-bottom: 1rem;
 }
+.mb-\[-66px\]{
+  margin-bottom: -66px;
+}
 .mb-\[100px\]{
   margin-bottom: 100px;
 }
@@ -480,6 +483,9 @@ video {
 }
 .mb-\[12px\]{
   margin-bottom: 12px;
+}
+.mb-\[150px\]{
+  margin-bottom: 150px;
 }
 .mb-\[15px\]{
   margin-bottom: 15px;
@@ -525,6 +531,9 @@ video {
 }
 .mb-\[64px\]{
   margin-bottom: 64px;
+}
+.mb-\[84px\]{
+  margin-bottom: 84px;
 }
 .ml-\[-10px\]{
   margin-left: -10px;
@@ -574,9 +583,6 @@ video {
 .h-\[19px\]{
   height: 19px;
 }
-.h-\[287px\]{
-  height: 287px;
-}
 .h-\[390px\]{
   height: 390px;
 }
@@ -586,8 +592,8 @@ video {
 .h-full{
   height: 100%;
 }
-.w-20{
-  width: 5rem;
+.w-\[1050px\]{
+  width: 1050px;
 }
 .w-\[130px\]{
   width: 130px;
@@ -598,11 +604,17 @@ video {
 .w-\[19px\]{
   width: 19px;
 }
+.w-\[20\%\]{
+  width: 20%;
+}
 .w-\[37\%\]{
   width: 37%;
 }
 .w-\[40\%\]{
   width: 40%;
+}
+.w-\[43\%\]{
+  width: 43%;
 }
 .w-\[62px\]{
   width: 62px;
@@ -627,6 +639,9 @@ video {
 }
 .grow{
   flex-grow: 1;
+}
+.transform{
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .cursor-pointer{
   cursor: pointer;
@@ -834,6 +849,9 @@ video {
 .pt-\[222px\]{
   padding-top: 222px;
 }
+.pt-\[370px\]{
+  padding-top: 370px;
+}
 .pt-\[38px\]{
   padding-top: 38px;
 }
@@ -861,6 +879,9 @@ video {
 .text-right{
   text-align: right;
 }
+.text-end{
+  text-align: end;
+}
 .font-space-mono{
   font-family: Space Mono, monospace;
 }
@@ -872,6 +893,9 @@ video {
 }
 .text-\[120px\]{
   font-size: 120px;
+}
+.text-\[165px\]{
+  font-size: 165px;
 }
 .text-\[16px\]{
   font-size: 16px;
@@ -938,6 +962,9 @@ video {
 }
 .leading-\[123px\]{
   line-height: 123px;
+}
+.leading-\[170px\]{
+  line-height: 170px;
 }
 .leading-\[20px\]{
   line-height: 20px;
@@ -1035,6 +1062,10 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-white-yellow{
+  --tw-text-opacity: 1;
+  color: rgb(247 241 226 / var(--tw-text-opacity));
 }
 .opacity-10{
   opacity: 0.1;

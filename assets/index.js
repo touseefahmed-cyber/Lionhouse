@@ -1,29 +1,35 @@
 
 
+var element =  document.getElementById('blaze-slider2');
+if (typeof(element) != 'undefined' && element != null)
+{
+  const ell = document.querySelector('#blaze-slider2');
+  new BlazeSlider(ell, {
+    all: {
+      autoplayDirection: 'to Right',
+      enableAutoplay: true,
+      autoplayInterval: 500,
+      transitionDuration: 300,
+      slidesToShow: 6,
+      slideGap: '42px',
+    },
+    '(max-width: 1280px)': {
+      slidesToShow: 5,
+    },
+    '(max-width: 900px)': {
+      slidesToShow: 4,
+    },
+    '(max-width: 639px)': {
+      slidesToShow: 2,
+    },
+  })
+}
 
-const ell = document.querySelector('#blaze-slider2');
-new BlazeSlider(ell, {
-  all: {
-    autoplayDirection: 'to Right',
-    enableAutoplay: true,
-    autoplayInterval: 500,
-    transitionDuration: 300,
-    slidesToShow: 6,
-    slideGap: '42px',
-  },
-  '(max-width: 1280px)': {
-    slidesToShow: 5,
-  },
-  '(max-width: 900px)': {
-    slidesToShow: 4,
-  },
-  '(max-width: 639px)': {
-    slidesToShow: 2,
-  },
-})
+var element =  document.getElementById('blaze-slider1');
+if (typeof(element) != 'undefined' && element != null)
+{
 
-
-//****************************** */
+  //****************************** */
 
 
 const el = document.querySelector('#blaze-slider1');
@@ -42,6 +48,15 @@ new BlazeSlider(el, {
     slidesToShow: 1,
   },
 });
+
+}
+
+
+
+
+
+
+
 
 
 
