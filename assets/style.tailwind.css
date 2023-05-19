@@ -293,3 +293,23 @@ header figure img{
   position: absolute;
   transform: translate(-50%, -50%);
 }
+.pin-spacer{
+  margin: 0 !important;
+  padding: 0 !important;
+  height: auto !important;
+}
+.upper-video-sec{
+  height: auto !important;
+  max-height: auto !important;
+  margin-bottom: 230px !important;
+}
+@media only screen and (max-width: 768px) {
+  .upper-video-sec{
+    margin-bottom: 150px !important;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .upper-video-sec{
+    margin-bottom: 100px !important;
+  }
+}
