@@ -466,6 +466,12 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+.mb-16{
+  margin-bottom: 4rem;
+}
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -552,6 +558,9 @@ video {
 }
 .mt-\[-147px\]{
   margin-top: -147px;
+}
+.mt-\[-300px\]{
+  margin-top: -300px;
 }
 .mt-\[-35px\]{
   margin-top: -35px;
@@ -691,6 +700,9 @@ video {
 .border-b-\[1px\]{
   border-bottom-width: 1px;
 }
+.border-t{
+  border-top-width: 1px;
+}
 .border-solid{
   border-style: solid;
 }
@@ -701,6 +713,10 @@ video {
 .border-\[\#F5A54F\]{
   --tw-border-opacity: 1;
   border-color: rgb(245 165 79 / var(--tw-border-opacity));
+}
+.border-t-gray{
+  --tw-border-opacity: 1;
+  border-top-color: rgb(93 93 93 / var(--tw-border-opacity));
 }
 .bg-\[\#171716\]{
   --tw-bg-opacity: 1;
@@ -729,6 +745,10 @@ video {
 .bg-light-yellow{
   --tw-bg-opacity: 1;
   background-color: rgb(248 243 228 / var(--tw-bg-opacity));
+}
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .bg-\[url\(\'\.\/images\/circule-img\.png\'\)\]{
   background-image: url('./images/circule-img.png');
@@ -767,6 +787,9 @@ video {
 }
 .pb-\[22px\]{
   padding-bottom: 22px;
+}
+.pb-\[400px\]{
+  padding-bottom: 400px;
 }
 .pb-\[4px\]{
   padding-bottom: 4px;
@@ -830,6 +853,9 @@ video {
 }
 .pr-\[71px\]{
   padding-right: 71px;
+}
+.pt-16{
+  padding-top: 4rem;
 }
 .pt-\[105px\]{
   padding-top: 105px;
