@@ -1337,7 +1337,7 @@ header figure img{
   transition: all 0.5s ease-in-out;
 }
 .scroll-up header figure img{
-  transform: rotate(270deg);
+  transform: rotate(-90deg);
 }
 .blink{
 	animation: flash linear 1s infinite;

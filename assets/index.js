@@ -51,15 +51,6 @@ new BlazeSlider(el, {
 
 }
 
-
-
-
-
-
-
-
-
-
 //****************************** */
 const body = document.body;
 const triggerMenu = document.querySelector(".page-header");
@@ -94,10 +85,10 @@ window.addEventListener("scroll", () => {
 var tl = gsap.timeline({scrollTrigger:{
   trigger:".upper-video-sec",
   markers:false,
-  start:"20% 50%",
+  start:"15% 50%",
   end:"30% 50%",
   scrub:2,
-  pin:true
+  pin:false
 }});
 tl.to(".banner-heading",{
   y: -120
@@ -108,12 +99,6 @@ tl.to(".banner-heading-before",{
 tl.to("#video",{
   y: -120
 },'a')
-
-
-
-
-
-
 
 const $body = document.querySelector('body');
 const toggleOffcanvas = () => {
