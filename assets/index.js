@@ -97,6 +97,10 @@ tl.to(".banner-heading-before",{
 tl.to("#video",{
   y: -120
 },'a')
+tl.to("video",{
+  height:'auto'
+},'a')
+
 
 const $body = document.querySelector('body');
 const toggleOffcanvas = () => {
