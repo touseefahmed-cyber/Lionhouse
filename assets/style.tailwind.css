@@ -54,6 +54,19 @@
 .site-map-col ul li a:hover::after,.site-map-col2 a:hover::after {
   width: 100%;
 }
+.transparent-banner header a{
+  color: black !important;
+}
+.container-2{
+  margin: 0 auto;
+  max-width: 1146px;
+}
+.jounral-text-heading h5{
+  font-size:21px;
+  line-height: 23px;
+  margin-bottom: 14px;
+  color: #ffffff;
+}
  /* .video-custom .poster-img {
   display: block;
   width: 100%;

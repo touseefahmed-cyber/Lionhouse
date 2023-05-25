@@ -484,6 +484,9 @@ video {
 .mb-\[100px\]{
   margin-bottom: 100px;
 }
+.mb-\[10px\]{
+  margin-bottom: 10px;
+}
 .mb-\[112px\]{
   margin-bottom: 112px;
 }
@@ -534,6 +537,9 @@ video {
 }
 .mb-\[27px\]{
   margin-bottom: 27px;
+}
+.mb-\[29px\]{
+  margin-bottom: 29px;
 }
 .mb-\[38px\]{
   margin-bottom: 38px;
@@ -613,8 +619,14 @@ video {
 .mt-\[-39px\]{
   margin-top: -39px;
 }
+.mt-\[10px\]{
+  margin-top: 10px;
+}
 .mt-\[5px\]{
   margin-top: 5px;
+}
+.mt-\[64px\]{
+  margin-top: 64px;
 }
 .mt-auto{
   margin-top: auto;
@@ -681,6 +693,12 @@ video {
 }
 .w-\[43\%\]{
   width: 43%;
+}
+.w-\[43\.8\%\]{
+  width: 43.8%;
+}
+.w-\[44\%\]{
+  width: 44%;
 }
 .w-\[62px\]{
   width: 62px;
@@ -772,6 +790,10 @@ video {
 .border-solid{
   border-style: solid;
 }
+.border-\[\#749ED8\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(116 158 216 / var(--tw-border-opacity));
+}
 .border-\[\#DDDDDD\]{
   --tw-border-opacity: 1;
   border-color: rgb(221 221 221 / var(--tw-border-opacity));
@@ -799,6 +821,10 @@ video {
 .bg-\[\#FFA156\]{
   --tw-bg-opacity: 1;
   background-color: rgb(255 161 86 / var(--tw-bg-opacity));
+}
+.bg-blue{
+  --tw-bg-opacity: 1;
+  background-color: rgb(11 51 85 / var(--tw-bg-opacity));
 }
 .bg-dark-yellow{
   --tw-bg-opacity: 1;
@@ -902,6 +928,9 @@ video {
 }
 .pl-\[30px\]{
   padding-left: 30px;
+}
+.pl-\[32px\]{
+  padding-left: 32px;
 }
 .pl-\[45px\]{
   padding-left: 45px;
@@ -1246,6 +1275,19 @@ a:hover {
 .site-map-col ul li a:hover::after,.site-map-col2 a:hover::after {
   width: 100%;
 }
+.transparent-banner header a{
+  color: black !important;
+}
+.container-2{
+  margin: 0 auto;
+  max-width: 1146px;
+}
+.jounral-text-heading h5{
+  font-size:21px;
+  line-height: 23px;
+  margin-bottom: 14px;
+  color: #ffffff;
+}
 /* .video-custom .poster-img {
   display: block;
   width: 100%;
@@ -1530,34 +1572,17 @@ header figure img{
   content: var(--tw-content);
   background-image: url('./images/layout-mobile-img.png');
 }
-.after\:text-end::after{
-  content: var(--tw-content);
-  text-align: end;
-}
-.after\:text-\[165px\]::after{
-  content: var(--tw-content);
-  font-size: 165px;
-}
-.after\:leading-\[170px\]::after{
-  content: var(--tw-content);
-  line-height: 170px;
-}
-.after\:text-white-yellow::after{
-  content: var(--tw-content);
-  --tw-text-opacity: 1;
-  color: rgb(247 241 226 / var(--tw-text-opacity));
-}
 .after\:content-\[\'\'\]::after{
   --tw-content: '';
-  content: var(--tw-content);
-}
-.after\:content-\[\'Services\'\]::after{
-  --tw-content: 'Services';
   content: var(--tw-content);
 }
 .hover\:-translate-y-\[8px\]:hover{
   --tw-translate-y: -8px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:bg-\[\#749ED8\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(116 158 216 / var(--tw-bg-opacity));
 }
 .hover\:bg-\[\#F5A54F\]:hover{
   --tw-bg-opacity: 1;
@@ -1566,6 +1591,10 @@ header figure img{
 .hover\:text-\[\#FFA156\]:hover{
   --tw-text-opacity: 1;
   color: rgb(255 161 86 / var(--tw-text-opacity));
+}
+.hover\:text-black:hover{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .hover\:text-light-white:hover{
   --tw-text-opacity: 1;
@@ -1841,6 +1870,9 @@ header figure img{
   .md\:gap-y-\[67px\]{
     row-gap: 67px;
   }
+  .md\:gap-y-\[72px\]{
+    row-gap: 72px;
+  }
   .md\:pb-\[100px\]{
     padding-bottom: 100px;
   }
@@ -1898,6 +1930,9 @@ header figure img{
   .md\:leading-\[186px\]{
     line-height: 186px;
   }
+  .md\:leading-\[200px\]{
+    line-height: 200px;
+  }
   .md\:leading-\[40px\]{
     line-height: 40px;
   }
@@ -1909,6 +1944,9 @@ header figure img{
   }
 }
 @media (min-width: 1024px){
+  .lg\:mb-\[112px\]{
+    margin-bottom: 112px;
+  }
   .lg\:mb-\[132px\]{
     margin-bottom: 132px;
   }
@@ -1959,6 +1997,9 @@ header figure img{
   }
   .lg\:w-\[44\%\]{
     width: 44%;
+  }
+  .lg\:w-\[47\%\]{
+    width: 47%;
   }
   .lg\:w-\[73\.5\%\]{
     width: 73.5%;
@@ -2103,6 +2144,9 @@ header figure img{
   .\32xl\:px-0{
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .\32xl\:pt-\[300px\]{
+    padding-top: 300px;
   }
   .\32xl\:pt-\[370px\]{
     padding-top: 370px;
