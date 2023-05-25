@@ -82,7 +82,7 @@ window.addEventListener("scroll", () => {
 
 var tl = gsap.timeline({scrollTrigger:{
   trigger:".upper-video-sec",
-  markers:false,
+  markers:true,
   end:"30% 50%",
   start: "center center",
   scrub:2,
@@ -98,7 +98,8 @@ tl.to("#video",{
   y: -120
 },'a')
 tl.to("video",{
-  height:'auto'
+  height:'auto',
+  width:'100%',
 },'a')
 
 
