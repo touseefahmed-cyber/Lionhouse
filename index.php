@@ -11,6 +11,7 @@
 <body>
   
 <body class="text-sm font-space-mono leading-18 text-light-silver">
+<!-- HEADER -->
     <input type="checkbox" class="hidden" id="checked">
   <header class="w-full float-left fixed sm:top-[48px] top-[38px] z-[9999]">
       <div class="container mx-auto xl:px-0 sm:px-4 pl:[14px] pr-[21px]">
@@ -71,10 +72,10 @@
                 </div>
                     <div>
                         <ul class="unstyle">
-                            <li><a href="#" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[20px] text-black">Projects</a></li>
+                            <li><a href="project.html" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[20px] text-black">Projects</a></li>
                             <li><a href="projects.html" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[11px] text-black">Services</a></li>
                             <li><a href="about.html" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[12px] text-black">About us</a></li>
-                            <li><a href="#" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[15px] text-black">Journal</a></li>
+                            <li><a href="journal.html" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[15px] text-black">Journal</a></li>
                             <li><a href="#" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block text-black">Contact</a></li>
                         </ul>
                     </div>
@@ -86,18 +87,22 @@
             </div>
     </div>
 </div>
+<!-- HEADER -->
+<!-- BANNER -->
   <section id="banner" class="bg-[#2C2C2C] w-full float-left 2xl:pt-[370px] xl:pt-[340px] lg:pt-[300px]
    md:pt-[250px] pt-[222px] md:pb-[100px] sm:pb-[90px] pb-[60px] relative 
   after:absolute sm:after:bg-[url('./images/layout-bgimg.png')] after:bg-[url('./images/layout-mobile-img.png')] after:content-['']
    lg:after:w-[710px]  lg:after:h-[853px] sm:after:h-[550px] after:h-[462px] sm:after:w-[450px] after:w-[347px] sm:after:bottom-0 after:bottom-[15%] after:right-0 sm:after:opacity-[10%]" >
-      <div class="container mx-auto xl:px-0 sm:px-4">
+      <div class="">
         <div class="upper-video-sec xl:mb-[230px] lg:mb-[160px] sm:mb-[150px] mb-[100px]">
+            <div class="container mx-auto xl:px-0 sm:px-4">
           <span class="banner-heading-before text-light-white sm:text-2xl text-[16px] lg:w-[27%] md:w-[45%] sm:w-[54%] w-[77%]
            block sm:leading-34 leading-[25px] sm:tracking-normal tracking-wider ml-auto
             md:mb-0 sm:mb-6 mb-[12px]">Strategy-led brand and  digital experience agency</span>
               <h1 class="banner-heading 2xl:text-8xl xl:text-[250px] lg:text-[200px] md:text-[145px] sm:text-[123px] text-[70px]
                md:leading-[184px] sm:leading-[125px] leading-[85px] text-center text-black
                 larkenvariableroman font-black relative z-10 xl:ml-[-32px] wow slideInLeft">Lionhouse</h1>
+            </div>
               <div class="video-custom xl:mt-[-57px] lg:mt-[-57px] md:mt-[-188px] sm:mt-[-172px] mt-[-147px] w-full">
                   <div class="play-pause"><span class="play-btn" id="play_button">
                       <img src="assets/images/play-btn.svg">
@@ -125,6 +130,7 @@
           </div>
       </div>
   </section>
+  <!-- BANNER -->
   <section class="pt-[105px] pb-[57px] w-full float-left bg-light-white border-b-[1px] solid border-[#DDDDDD] service-section">
       <div class="max-w-[1150px] mx-auto 2xl:px-0 px-4 md:mb-0 mb-4"> 
               <div class="w-full float-left">
@@ -348,6 +354,8 @@
           </div>
       </div>
   </section>
+  
+  <!-- FOOTER -->
   <footer class="bg-[#2C2C2C] float-left w-full xl:pt-[144px] lg:pt-[100px] md:pt-[80px] sm:pt-[60px] pt-[85px] pb-[22px]">
    <div class="container mx-auto xl:px-0 px-4">
       <div class="md:flex xl:mb-[80px] lg:mb-[70px] md:mb-[60px] sm:mb-[40px]">
@@ -410,6 +418,7 @@
       </div>
    </div>
   </footer>
+  <!-- FOOTER -->
 </body>
 
 <script src="https://unpkg.com/blaze-slider@0.1.6/dist/blaze-slider.min.js"></script>
