@@ -496,6 +496,9 @@ video {
 .mb-\[11px\]{
   margin-bottom: 11px;
 }
+.mb-\[125px\]{
+  margin-bottom: 125px;
+}
 .mb-\[12px\]{
   margin-bottom: 12px;
 }
@@ -576,6 +579,9 @@ video {
 }
 .mb-\[8px\]{
   margin-bottom: 8px;
+}
+.mb-\[96px\]{
+  margin-bottom: 96px;
 }
 .mb-\[97px\]{
   margin-bottom: 97px;
@@ -660,6 +666,9 @@ video {
 }
 .h-\[667px\]{
   height: 667px;
+}
+.h-\[953px\]{
+  height: 953px;
 }
 .h-full{
   height: 100%;
@@ -846,11 +855,20 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-\[url\(\'\.\.\/assets\/images\/journal-img3\.png\'\)\]{
+  background-image: url('../assets/images/journal-img3.png');
+}
 .bg-\[url\(\'\.\/images\/circule-img\.png\'\)\]{
   background-image: url('./images/circule-img.png');
 }
+.bg-cover{
+  background-size: cover;
+}
 .bg-center{
   background-position: center;
+}
+.bg-top{
+  background-position: top;
 }
 .bg-no-repeat{
   background-repeat: no-repeat;
@@ -877,6 +895,9 @@ video {
 }
 .pb-\[11px\]{
   padding-bottom: 11px;
+}
+.pb-\[144px\]{
+  padding-bottom: 144px;
 }
 .pb-\[20px\]{
   padding-bottom: 20px;
@@ -974,6 +995,9 @@ video {
 .pt-\[142px\]{
   padding-top: 142px;
 }
+.pt-\[175px\]{
+  padding-top: 175px;
+}
 .pt-\[190px\]{
   padding-top: 190px;
 }
@@ -994,6 +1018,9 @@ video {
 }
 .pt-\[65px\]{
   padding-top: 65px;
+}
+.pt-\[67px\]{
+  padding-top: 67px;
 }
 .pt-\[70px\]{
   padding-top: 70px;
@@ -1169,6 +1196,10 @@ video {
 .tracking-wider{
   letter-spacing: 0.05em;
 }
+.text-\[\#164269\]{
+  --tw-text-opacity: 1;
+  color: rgb(22 66 105 / var(--tw-text-opacity));
+}
 .text-\[\#5C5C5C\]{
   --tw-text-opacity: 1;
   color: rgb(92 92 92 / var(--tw-text-opacity));
@@ -1231,6 +1262,10 @@ video {
 .ease-in-out{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.container-2{
+  margin: 0 auto;
+  max-width: 1146px;
+}
 .video-custom {
   position: relative;
  }
@@ -1277,10 +1312,6 @@ a:hover {
 }
 .transparent-banner header a{
   color: black !important;
-}
-.container-2{
-  margin: 0 auto;
-  max-width: 1146px;
 }
 .jounral-text-heading h5{
   font-size:21px;
@@ -1631,6 +1662,9 @@ header figure img{
   .sm\:mb-\[40px\]{
     margin-bottom: 40px;
   }
+  .sm\:mb-\[47px\]{
+    margin-bottom: 47px;
+  }
   .sm\:mb-\[50px\]{
     margin-bottom: 50px;
   }
@@ -1851,6 +1885,9 @@ header figure img{
   .md\:w-\[47\%\]{
     width: 47%;
   }
+  .md\:w-\[51\%\]{
+    width: 51%;
+  }
   .md\:w-\[64\%\]{
     width: 64%;
   }
@@ -1862,6 +1899,10 @@ header figure img{
   }
   .md\:gap-\[20px\]{
     gap: 20px;
+  }
+  .md\:gap-x-\[33px\]{
+    -moz-column-gap: 33px;
+         column-gap: 33px;
   }
   .md\:gap-x-\[35px\]{
     -moz-column-gap: 35px;
