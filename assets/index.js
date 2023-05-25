@@ -1,5 +1,3 @@
-
-
 var element =  document.getElementById('blaze-slider2');
 if (typeof(element) != 'undefined' && element != null)
 {
@@ -85,8 +83,8 @@ window.addEventListener("scroll", () => {
 var tl = gsap.timeline({scrollTrigger:{
   trigger:".upper-video-sec",
   markers:false,
-  start:"15% 50%",
   end:"30% 50%",
+  start: "center center",
   scrub:2,
   pin:false
 }});
