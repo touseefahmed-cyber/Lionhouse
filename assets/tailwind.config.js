@@ -20,10 +20,10 @@ module.exports = {
             },
             container: {
                 screens:{
-                    sm:"1212px",
-                    md:"1212px",
-                    lg:"1212px",
-                    xl:"1212px",
+                    sm:"1450px",
+                    md:"1450px",
+                    lg:"1450px",
+                    xl:"1450px",
                 }
             },
             fontFamily: {
