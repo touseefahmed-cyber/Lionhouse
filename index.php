@@ -419,7 +419,6 @@
    </div>
   </footer>
   <!-- FOOTER -->
-  test
 </body>
 
 <script src="https://unpkg.com/blaze-slider@0.1.6/dist/blaze-slider.min.js"></script>
