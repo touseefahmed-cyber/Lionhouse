@@ -66,6 +66,18 @@
   margin-bottom: 14px;
   color: #ffffff;
 }
+.text-content .content-paragraph h2, .text-content .content-paragraph h3, .text-content .content-paragraph h4, .text-content .content-paragraph h5, .text-content .content-paragraph h6{
+  color:black;
+  font-size: 19px;
+  line-height: 29px;
+  margin-bottom: 28px;
+}
+.text-content .content-paragraph > p{
+  font-size: 13px;
+  line-height: 22px;
+  color: #5D5D5D;
+  margin-bottom: 21px;
+}
  /* .video-custom .poster-img {
   display: block;
   width: 100%;
