@@ -1,3 +1,10 @@
+
+/*
+          * =======================================================
+          *            Theme setup.
+          * =======================================================
+*/
+
 var element =  document.getElementById('blaze-slider2');
 if (typeof(element) != 'undefined' && element != null)
 {
@@ -23,12 +30,16 @@ if (typeof(element) != 'undefined' && element != null)
   })
 }
 
+
+/*
+          * =======================================================
+          *            Theme setup.
+          * =======================================================
+*/
+
 var element =  document.getElementById('blaze-slider1');
 if (typeof(element) != 'undefined' && element != null)
 {
-
-  //****************************** */
-
 
 const el = document.querySelector('#blaze-slider1');
 new BlazeSlider(el, {
@@ -49,7 +60,12 @@ new BlazeSlider(el, {
 
 }
 
-//****************************** */
+
+/*
+          * =======================================================
+          *            Theme setup.
+          * =======================================================
+*/
 const body = document.body;
 const triggerMenu = document.querySelector(".page-header");
 const scrollUp = "scroll-up";
@@ -78,7 +94,12 @@ window.addEventListener("scroll", () => {
   lastScroll = currentScroll;
 });
 
-//****************************** */
+
+/*
+          * =======================================================
+          *            Theme setup.
+          * =======================================================
+*/
 
 var tl = gsap.timeline({scrollTrigger:{
   trigger:".upper-video-sec",
@@ -102,9 +123,38 @@ tl.to("video",{
   width:'100%',
 },'a')
 
+/*
+          * =======================================================
+          *            Theme setup.
+          * =======================================================
+*/
 
 const $body = document.querySelector('body');
 const toggleOffcanvas = () => {
     $body.classList.toggle('has-offcanvas');
 }
 document.querySelector('.hamburger-toggle').addEventListener('click', toggleOffcanvas);
+
+
+/*
+          * =======================================================
+          *            Theme setup.
+          * =======================================================
+*/
+
+const josh = new Josh({
+  // DOM CSS class to Animate, default is "josh-js"
+  initClass: "josh-js",
+
+  // Animation CSS class from Animate.css library
+  animClass: "animate__animated",
+
+  // Element distance of viewport to triggering the animation. default is 0.2 means 20% of element view animation will trigger
+  offset: 0.2,
+
+  // Animation will trigger on Mobile or not. Default is true
+  animateInMobile: true,
+
+  // Animation will trigger on newly added element or not. Default is false
+  onDOMChange: false,
+});
