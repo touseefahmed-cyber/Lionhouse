@@ -347,3 +347,11 @@ header figure img{
     margin-bottom: 100px !important;
   }
 }
+@media only screen and (max-width: 360px){
+  .large-heading{
+    font-size: 63px !important;
+  }
+  .footer-large-heading{
+    font-size: 60px !important;
+  }
+}
