@@ -5,7 +5,6 @@
   <title>Lion House</title>
   <link rel="stylesheet" href="https://unpkg.com/blaze-slider@0.1.6/dist/blaze.css">
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/fonts.css">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -13,8 +12,8 @@
 <body class="text-sm font-space-mono leading-18 text-light-silver">
 <!-- HEADER -->
     <input type="checkbox" class="hidden" id="checked">
-  <header class="w-full float-left fixed sm:top-[48px] top-[38px] z-[9999]">
-      <div class="container mx-auto xl:px-0 sm:px-4 pl:[14px] pr-[21px]">
+  <header class="w-full float-left fixed sm:top-[48px] top-[32px] z-[9999]">
+      <div class="container mx-auto 2xl:px-0 sm:px-4 pl-[10px] sm:pr-[21px] pr-[24px]">
           <nav class="flex justify-between items-center">
               <div class="lg:inline-block md:hidden sm:hidden hidden"> 
                   <a href="contact.html" class="text-light-white pb-[5px] start-link tracking-[1px]">Start A Project</a>
@@ -39,30 +38,32 @@
       </div>
   </header>
   <div class="navigation__background"></div>
-  <div class="float-left w-full pt-[190px] h-full header-menu fixed top-0 z-[999]">
-    <div class="container mx-auto">
-            <div class="flex justify-between">
+  <div class="float-left w-full sm:pt-[190px] pt-[174px] h-full header-menu fixed top-0 z-[999]">
+    <div class="container mx-auto 2xl:px-0 px-4">
+            <div class="flex justify-between sm:flex-row flex-col-reverse sm:pl-0 pl-[8px]">
                 <div class="flex ">
-                    <div class="pr-[69px]">
+                    <div class="md:pr-[69px] sm:pr-[30px] pr-[60px]">
                         <ul class="unstyle">
-                            <li><a href="#" class="inline-block xl:mb-[20px] lg:mb-[20px] md:mb-[18px] mb-[18px] text-base
+                            <li><a href="#" class="inline-block md:mb-[20px] sm:mb-[18px] mb-[19px] sm:text-base text-[13px]
                                  text-black hover:text-[#FFA156] relative">Instagram</a></li>
-                            <li><a href="#" class="inline-block xl:mb-[20px] lg:mb-[22px] md:mb-[18px] mb-[18px] text-base text-black hover:text-[#FFA156] relative">Linkedin</a></li>
-                            <li><a href="#" class="inline-block xl:mb-[18px] lg:mb-[22px] md:mb-[18px] mb-[18px] text-base text-black hover:text-[#FFA156] relative">Twitter</a></li>
-                            <li><a href="#" class="inline-block text-base text-black hover:text-[#FFA156] relative">Newsletter</a></li>
+                            <li><a href="#" class="inline-block md:mb-[20px] sm:mb-[18px] mb-[19px] sm:text-base text-[13px]
+                                 text-black hover:text-[#FFA156] relative">Linkedin</a></li>
+                            <li><a href="#" class="inline-block md:mb-[20px] sm:mb-[18px] mb-[17px] sm:text-base text-[13px]
+                                 text-black hover:text-[#FFA156] relative">Twitter</a></li>
+                            <li><a href="#" class="inline-block sm:text-base text-[13px] text-black hover:text-[#FFA156] relative">Newsletter</a></li>
                         </ul>
                     </div>
 
                     <div>
                         <div class="site-map-col2">
-                            <a href="#" class="inline-block mb-[21px] text-base text-black hover:text-[#FFA156] relative">+44(0) 1225 445 427</a>
+                            <a href="#" class="inline-block sm:mb-[21px] mb-[20px] sm:text-base text-[13px] text-black hover:text-[#FFA156] relative">+44(0) 1225 445 427</a>
                         </div>
                         <div class="site-map-col2">
-                            <a href="#" class="inline-block mb-[18px] text-base text-black hover:text-[#FFA156] relative">enquiries@lionhouse.com</a>
+                            <a href="#" class="inline-block sm:mb-[18px] mb-[18px] sm:text-base text-[13px] text-black hover:text-[#FFA156] relative">enquiries@lionhouse.com</a>
                         </div>
-                            <div class="text-black text-base leading-[23px]">
+                            <div class="text-black sm:text-base text-[13px] leading-[23px]">
                                 <h6 class="">Head office:</h6>
-                                <p class="max-w-[84%]">
+                                <p class="max-w-[84%] leading-[21px]">
                                     4 River Street place
                                     Bath</p>
                                 <small class="inline-block text-base">BA1 2RS</small>
@@ -70,13 +71,13 @@
                     </div>
 
                 </div>
-                    <div>
+                    <div class="sm:mb-0 mb-[59px]">
                         <ul class="unstyle">
-                            <li><a href="project.html" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[20px] text-black">Projects</a></li>
-                            <li><a href="services.html" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[11px] text-black">Services</a></li>
-                            <li><a href="about.html" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[12px] text-black">About us</a></li>
-                            <li><a href="journal.html" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block mb-[15px] text-black">Journal</a></li>
-                            <li><a href="contact.html" class="text-[60px] leading-[65px] larkenvariableroman font-black tracking-[.4px] inline-block text-black">Contact</a></li>
+                            <li><a href="project.html"  class="md:text-[60px] sm:text-[50px] text-[41px] sm:leading-[65px] leading-[43px] mb-[20px] larkenvariableroman font-black tracking-[.4px] inline-block text-black">Projects</a></li>
+                            <li><a href="services.html" class="md:text-[60px] sm:text-[50px] text-[41px] sm:leading-[65px] leading-[43px] mb-[19px] larkenvariableroman font-black tracking-[.4px] inline-block text-black">Services</a></li>
+                            <li><a href="about.html"    class="md:text-[60px] sm:text-[50px] text-[41px] sm:leading-[65px] leading-[43px] mb-[15px] larkenvariableroman font-black tracking-[.4px] inline-block text-black">About us</a></li>
+                            <li><a href="journal.html"  class="md:text-[60px] sm:text-[50px] text-[41px] sm:leading-[65px] leading-[43px] mb-[16px] larkenvariableroman font-black tracking-[.4px] inline-block text-black">Journal</a></li>
+                            <li><a href="contact.html"  class="md:text-[60px] sm:text-[50px] text-[41px] sm:leading-[65px] leading-[43px] larkenvariableroman font-black tracking-[.4px] inline-block text-black">Contact</a></li>
                         </ul>
                     </div>
             </div>
@@ -99,9 +100,9 @@
           <span class="banner-heading-before text-light-white sm:text-2xl text-[16px] lg:w-[27%] md:w-[45%] sm:w-[54%] w-[77%]
            block sm:leading-34 leading-[25px] sm:tracking-normal tracking-wider ml-auto
             md:mb-0 sm:mb-6 mb-[12px]">Strategy-led brand and  digital experience agency</span>
-              <h1 class="banner-heading 2xl:text-8xl xl:text-[250px] lg:text-[200px] md:text-[145px] sm:text-[123px] text-[70px]
+              <h1 class="large-heading banner-heading 2xl:text-8xl xl:text-[250px] lg:text-[200px] md:text-[145px] sm:text-[123px] text-[70px]
                md:leading-[184px] sm:leading-[125px] leading-[85px] text-center text-black
-                larkenvariableroman font-black relative z-10 xl:ml-[-32px] wow slideInLeft">Lionhouse</h1>
+                larkenvariableroman font-black relative z-10 xl:ml-[-32px]">Lionhouse</h1>
             </div>
               <div class="video-custom xl:mt-[-57px] lg:mt-[-57px] md:mt-[-188px] sm:mt-[-172px] mt-[-147px] w-full">
                   <div class="play-pause"><span class="play-btn" id="play_button">
@@ -115,18 +116,23 @@
                 </div>
           <p class="text-light-white lg:text-2xl sm:text-[19px] text-[17px] sm:leading-34 leading-[26px]
            lg:w-[44%] md:w-[64%] sm:w-[76%] w-[92%] ml-auto lg:mb-[253px] md:mb-[100px] sm:mb-[100px] mb-[169px] sm:px-0 pl-[
-           32px] pr-[33px]">We help our clients be <span class="start-link">bolder</span> & achieve their
+           32px] pr-[33px]  josh-js" 
+           data-josh-anim-name="fadeInUp"
+           data-josh-anim-delay="1s">We help our clients be <span class="start-link">bolder</span> & achieve their
             business goals through strategic planning, creative thinking, brilliant design and technical expertise. </p>
           <div class="md:ml-[42px] md:mr-[42px] sm:pl-0 pl-[10px]">
               <div class="flex items-center sm:mb-[28px] mb-[25px]">
                   <figure class="inline-block mr-[12px]"><img src="assets/images/location.png"></figure>
                   <span class="inline-block text-light-white">Our offices</span>
               </div>
-              <h3 class="xl:text-5xl lg:text-[115px] md:text-[83px] sm:text-[77px] text-[70px] text-black
+              <h3 class="large-heading xl:text-5xl lg:text-[115px] md:text-[83px] sm:text-[77px] text-[70px] text-black
                lg:leading-[102px] md:leading-[90px] leading-[50px] larkenvariableroman font-black 
-              tracking-[1.9px] inline-block sm:border-r-[1.5px] border-solid border-[#F5A54F] lg:pr-[51px] sm:pr-[35px] sm:mr-[36px]">Bath</h3>
-              <h3 class="xl:text-5xl lg:text-[115px] md:text-[83px] text-[77px]
-               text-black lg:leading-[102px] sm:leading-[90px] leading-[78px] larkenvariableroman font-black tracking-[1.9px] inline-block">Cornwall</h3>
+              tracking-[1.9px] inline-block sm:border-r-[1.5px] border-solid border-[#F5A54F] lg:pr-[51px] sm:pr-[35px] sm:mr-[36px] josh-js"  
+              data-josh-anim-name="flipInX"
+              data-josh-anim-delay="1s" >Bath</h3>
+              <h3 class="large-heading xl:text-5xl lg:text-[115px] md:text-[83px] text-[77px]
+               text-black lg:leading-[102px] sm:leading-[90px] leading-[78px] larkenvariableroman font-black tracking-[1.9px] inline-block josh-js" data-josh-anim-name="flipInX"
+               data-josh-anim-delay="2s" >Cornwall</h3>
           </div>
       </div>
   </section>
@@ -138,18 +144,22 @@
                    pt-[10px] pb-[11px] float-right hover:text-light-white hover:bg-[#F5A54F] transition-all duration-[0.6s]
                     ease-in-out hover:-translate-y-[8px]">See all projects</a>
               </div>
-              <h3 class="xl:text-6xl lg:text-[134px] md:text-[118px] sm:text-[75px] text-[65px] text-black md:leading-[150px] leading-[115px] larkenvariableroman font-black tracking-[1.9px] text-right text-dark-yellow text-[#f2ebd9] opacity-10 w-full float-right service-title">Projects</h3>
+              <h3 class="xl:text-6xl lg:text-[134px] md:text-[118px] sm:text-[75px] text-[65px] text-black md:leading-[150px] leading-[115px] larkenvariableroman font-black tracking-[1.9px] text-right text-dark-yellow text-[#f2ebd9] opacity-10 w-full float-right service-title josh-js"
+              data-josh-anim-name="backInRight"
+              data-josh-anim-delay="2.5s">Projects</h3>
               <div class="grid sm:grid-cols-2 md:gap-x-[35px] 
               gap-x-[15px] md:gap-y-[67px] sm:gap-y-[40px] gap-y-[50px] mt-[-39px] md:mb-[75px] sm:mb-[50px] mb-[57px]
-              w-full float-left relative sm:pl-0 sm:pr-0 px-[17px]">
-                  <div>
+              w-full float-left relative sm:pl-0 sm:pr-0 px-[17px]" >
+                  <div class="josh-js" data-josh-anim-name="fadeInUp"
+                  data-josh-anim-delay="2.5s">
                       <figure class="sm:mb-[25px] mb-[22px]">
                           <img src="assets/images/service-img1.png" alt="service-img" class="w-full">
                       </figure>
                       <h3 class="sm:text-xl text-[18px] text-black mb-[11px]">Mission Pebble</h3>
                       <p class="md:w-[47%] sm:w-[65%] w-[78%]">Bringing a sustainable consumer brand to life,from idea to exceeding sales targets</p>
                   </div>
-                  <div>
+                  <div class="josh-js" data-josh-anim-name="fadeInUp"
+                  data-josh-anim-delay="2.5s">
                       <figure class="sm:mb-[25px] mb-[22px]">
                           <img src="assets/images/service-img2.png" alt="service-img" class="w-full">
                       </figure>
@@ -407,7 +417,7 @@
               </div>
           </div>
       </div>
-      <h3 class="2xl:text-8xl xl:text-[250px] lg:text-[200px] md:text-[148px] sm:text-[120px] text-[68px] lg:leading-[202px]
+      <h3 class="footer-large-heading 2xl:text-8xl xl:text-[250px] lg:text-[200px] md:text-[148px] sm:text-[120px] text-[68px] lg:leading-[202px]
        md:leading-[145px] sm:leading-[120px] leading-[68px] 2xl:ml-[-60px] xl:ml-[-10px] text-black larkenvariableroman font-black relative z-10">Lionhouse</h3>
       <div class="site-map-col float-left w-full">
           <ul class="float-right xl:pr-[3px]">        
@@ -424,5 +434,6 @@
 <script src="https://unpkg.com/blaze-slider@0.1.6/dist/blaze-slider.min.js"></script>
 <script src="./assets/js/gsap-latest-beta.min.js"></script>
 <script src="./assets/js/tScrollTrigger.min.js"></script>
+<script src="./assets/js/josh.min.js"></script>
 <script src="./assets/index.js"></script>
 </html>
