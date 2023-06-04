@@ -2427,9 +2427,6 @@ video {
 .mb-\[22px\]{
   margin-bottom: 22px;
 }
-.mb-\[23px\]{
-  margin-bottom: 23px;
-}
 .mb-\[25px\]{
   margin-bottom: 25px;
 }
@@ -2564,9 +2561,6 @@ video {
 }
 .mt-\[-190px\]{
   margin-top: -190px;
-}
-.mt-\[-28px\]{
-  margin-top: -28px;
 }
 .mt-\[-30px\]{
   margin-top: -30px;
@@ -3334,11 +3328,11 @@ video {
 .leading-\[27px\]{
   line-height: 27px;
 }
+.leading-\[30px\]{
+  line-height: 30px;
+}
 .leading-\[38px\]{
   line-height: 38px;
-}
-.leading-\[40px\]{
-  line-height: 40px;
 }
 .leading-\[43px\]{
   line-height: 43px;
@@ -3802,9 +3796,14 @@ header figure img{
   max-height: auto !important;
   margin-bottom: 230px !important;
 }
+@media only screen and (max-width: 1024px) {
+  .upper-video-sec{
+    margin-bottom: 170px !important;
+  }
+}
 @media only screen and (max-width: 768px) {
   .upper-video-sec{
-    margin-bottom: 150px !important;
+    margin-bottom: 130px !important;
   }
 }
 @media only screen and (max-width: 640px) {
@@ -3845,9 +3844,9 @@ header figure img{
   content: var(--tw-content);
   right: 0px;
 }
-.after\:h-\[462px\]::after{
+.after\:h-\[390px\]::after{
   content: var(--tw-content);
-  height: 462px;
+  height: 390px;
 }
 .after\:w-\[347px\]::after{
   content: var(--tw-content);
@@ -3936,9 +3935,6 @@ header figure img{
   .sm\:mb-\[14px\]{
     margin-bottom: 14px;
   }
-  .sm\:mb-\[150px\]{
-    margin-bottom: 150px;
-  }
   .sm\:mb-\[15px\]{
     margin-bottom: 15px;
   }
@@ -4008,8 +4004,8 @@ header figure img{
   .sm\:mt-\[-119px\]{
     margin-top: -119px;
   }
-  .sm\:mt-\[-172px\]{
-    margin-top: -172px;
+  .sm\:mt-\[-40px\]{
+    margin-top: -40px;
   }
   .sm\:mt-\[-75px\]{
     margin-top: -75px;
@@ -4044,6 +4040,9 @@ header figure img{
   .sm\:w-\[21\%\]{
     width: 21%;
   }
+  .sm\:w-\[35\%\]{
+    width: 35%;
+  }
   .sm\:w-\[46\%\]{
     width: 46%;
   }
@@ -4070,9 +4069,6 @@ header figure img{
   }
   .sm\:w-\[76\%\]{
     width: 76%;
-  }
-  .sm\:w-\[84\%\]{
-    width: 84%;
   }
   .sm\:w-full{
     width: 100%;
@@ -4492,8 +4488,8 @@ header figure img{
   .md\:gap-0{
     gap: 0px;
   }
-  .md\:gap-\[20px\]{
-    gap: 20px;
+  .md\:gap-\[15px\]{
+    gap: 15px;
   }
   .md\:gap-x-\[33px\]{
     -moz-column-gap: 33px;
@@ -4678,11 +4674,11 @@ header figure img{
   .lg\:mb-\[150px\]{
     margin-bottom: 150px;
   }
-  .lg\:mb-\[160px\]{
-    margin-bottom: 160px;
-  }
   .lg\:mb-\[18px\]{
     margin-bottom: 18px;
+  }
+  .lg\:mb-\[200px\]{
+    margin-bottom: 200px;
   }
   .lg\:mb-\[20px\]{
     margin-bottom: 20px;
@@ -4690,8 +4686,8 @@ header figure img{
   .lg\:mb-\[22px\]{
     margin-bottom: 22px;
   }
-  .lg\:mb-\[253px\]{
-    margin-bottom: 253px;
+  .lg\:mb-\[23px\]{
+    margin-bottom: 23px;
   }
   .lg\:mb-\[30px\]{
     margin-bottom: 30px;
@@ -4753,11 +4749,14 @@ header figure img{
   .lg\:w-\[160px\]{
     width: 160px;
   }
-  .lg\:w-\[27\%\]{
-    width: 27%;
+  .lg\:w-\[21\%\]{
+    width: 21%;
   }
   .lg\:w-\[30\%\]{
     width: 30%;
+  }
+  .lg\:w-\[35\%\]{
+    width: 35%;
   }
   .lg\:w-\[37\%\]{
     width: 37%;
@@ -4798,11 +4797,17 @@ header figure img{
   .lg\:w-\[75\%\]{
     width: 75%;
   }
+  .lg\:w-\[84\%\]{
+    width: 84%;
+  }
+  .lg\:w-\[88\%\]{
+    width: 88%;
+  }
   .lg\:w-\[950px\]{
     width: 950px;
   }
-  .lg\:gap-\[40px\]{
-    gap: 40px;
+  .lg\:gap-\[30px\]{
+    gap: 30px;
   }
   .lg\:gap-\[45px\]{
     gap: 45px;
@@ -4860,6 +4865,9 @@ header figure img{
   }
   .lg\:pr-\[33px\]{
     padding-right: 33px;
+  }
+  .lg\:pr-\[35px\]{
+    padding-right: 35px;
   }
   .lg\:pr-\[51px\]{
     padding-right: 51px;
@@ -4951,9 +4959,9 @@ header figure img{
   .lg\:leading-\[72px\]{
     line-height: 72px;
   }
-  .lg\:after\:h-\[853px\]::after{
+  .lg\:after\:h-\[750px\]::after{
     content: var(--tw-content);
-    height: 853px;
+    height: 750px;
   }
   .lg\:after\:w-\[710px\]::after{
     content: var(--tw-content);
@@ -4967,8 +4975,8 @@ header figure img{
   .xl\:mb-\[20px\]{
     margin-bottom: 20px;
   }
-  .xl\:mb-\[230px\]{
-    margin-bottom: 230px;
+  .xl\:mb-\[253px\]{
+    margin-bottom: 253px;
   }
   .xl\:mb-\[29px\]{
     margin-bottom: 29px;
@@ -5039,6 +5047,9 @@ header figure img{
   .xl\:w-\[69\%\]{
     width: 69%;
   }
+  .xl\:gap-\[40px\]{
+    gap: 40px;
+  }
   .xl\:gap-\[56px\]{
     gap: 56px;
   }
@@ -5061,6 +5072,9 @@ header figure img{
   }
   .xl\:pr-\[3px\]{
     padding-right: 3px;
+  }
+  .xl\:pr-\[73px\]{
+    padding-right: 73px;
   }
   .xl\:pt-\[125px\]{
     padding-top: 125px;
@@ -5112,6 +5126,9 @@ header figure img{
   }
 }
 @media (min-width: 1536px){
+  .\32xl\:mb-\[230px\]{
+    margin-bottom: 230px;
+  }
   .\32xl\:ml-\[-60px\]{
     margin-left: -60px;
   }
