@@ -348,9 +348,14 @@ header figure img{
   max-height: auto !important;
   margin-bottom: 230px !important;
 }
+@media only screen and (max-width: 1024px) {
+  .upper-video-sec{
+    margin-bottom: 170px !important;
+  }
+}
 @media only screen and (max-width: 768px) {
   .upper-video-sec{
-    margin-bottom: 150px !important;
+    margin-bottom: 130px !important;
   }
 }
 @media only screen and (max-width: 640px) {
