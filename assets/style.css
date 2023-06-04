@@ -2895,10 +2895,6 @@ video {
   padding-left: 17px;
   padding-right: 17px;
 }
-.px-\[20px\]{
-  padding-left: 20px;
-  padding-right: 20px;
-}
 .px-\[26px\]{
   padding-left: 26px;
   padding-right: 26px;
@@ -2919,10 +2915,6 @@ video {
   padding-left: 50px;
   padding-right: 50px;
 }
-.py-\[10px\]{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 .py-\[20px\]{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -2934,6 +2926,9 @@ video {
 .py-\[50px\]{
   padding-top: 50px;
   padding-bottom: 50px;
+}
+.pb-\[100px\]{
+  padding-bottom: 100px;
 }
 .pb-\[103px\]{
   padding-bottom: 103px;
@@ -2985,9 +2980,6 @@ video {
 }
 .pb-\[55px\]{
   padding-bottom: 55px;
-}
-.pb-\[57px\]{
-  padding-bottom: 57px;
 }
 .pb-\[5px\]{
   padding-bottom: 5px;
@@ -3464,6 +3456,9 @@ video {
 .opacity-10{
   opacity: 0.1;
 }
+.opacity-30{
+  opacity: 0.3;
+}
 .transition-all{
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -3474,6 +3469,9 @@ video {
 }
 .ease-in-out{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.selected h3{
+  animation: auto !important;
 }
 .container-2{
   margin: 0 auto;
@@ -3707,7 +3705,7 @@ a:hover {
   0%   { transform: translate(0, 0); }
   100% { transform: translate(-100%, 0); }
 }
-.marquee > h3 {
+.marquee a h3 {
   white-space: nowrap;
   animation: marquee 6s linear infinite; /* Time must be adjusted based on total width of scrolled elements*/
 }
@@ -4753,9 +4751,6 @@ header figure img{
   .lg\:h-\[600px\]{
     height: 600px;
   }
-  .lg\:h-\[628px\]{
-    height: 628px;
-  }
   .lg\:h-\[800px\]{
     height: 800px;
   }
@@ -5024,6 +5019,9 @@ header figure img{
   .xl\:mt-\[5px\]{
     margin-top: 5px;
   }
+  .xl\:h-\[660px\]{
+    height: 660px;
+  }
   .xl\:h-\[667px\]{
     height: 667px;
   }
@@ -5086,8 +5084,8 @@ header figure img{
   .xl\:pr-\[3px\]{
     padding-right: 3px;
   }
-  .xl\:pr-\[73px\]{
-    padding-right: 73px;
+  .xl\:pt-\[10px\]{
+    padding-top: 10px;
   }
   .xl\:pt-\[125px\]{
     padding-top: 125px;
@@ -5113,8 +5111,8 @@ header figure img{
   .xl\:pt-\[340px\]{
     padding-top: 340px;
   }
-  .xl\:pt-\[90px\]{
-    padding-top: 90px;
+  .xl\:pt-\[400px\]{
+    padding-top: 400px;
   }
   .xl\:pt-\[93px\]{
     padding-top: 93px;
@@ -5124,6 +5122,9 @@ header figure img{
   }
   .xl\:text-6xl{
     font-size: 9.375rem;
+  }
+  .xl\:text-8xl{
+    font-size: 16.375rem;
   }
   .xl\:text-\[151px\]{
     font-size: 151px;
@@ -5147,6 +5148,9 @@ header figure img{
   }
   .\32xl\:ml-\[-90px\]{
     margin-left: -90px;
+  }
+  .\32xl\:h-\[628px\]{
+    height: 628px;
   }
   .\32xl\:w-\[1050px\]{
     width: 1050px;
