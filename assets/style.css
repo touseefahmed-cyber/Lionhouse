@@ -2622,9 +2622,6 @@ video {
 .h-\[874px\]{
   height: 874px;
 }
-.h-\[92\%\]{
-  height: 92%;
-}
 .h-full{
   height: 100%;
 }
@@ -3047,14 +3044,14 @@ video {
 .pr-\[24px\]{
   padding-right: 24px;
 }
-.pr-\[30px\]{
-  padding-right: 30px;
-}
 .pr-\[33px\]{
   padding-right: 33px;
 }
 .pr-\[54px\]{
   padding-right: 54px;
+}
+.pr-\[60px\]{
+  padding-right: 60px;
 }
 .pr-\[68px\]{
   padding-right: 68px;
@@ -3394,10 +3391,6 @@ video {
   --tw-text-opacity: 1;
   color: rgb(92 92 92 / var(--tw-text-opacity));
 }
-.text-\[\#F7F1E2\]{
-  --tw-text-opacity: 1;
-  color: rgb(247 241 226 / var(--tw-text-opacity));
-}
 .text-\[\#FAF5E9\]{
   --tw-text-opacity: 1;
   color: rgb(250 245 233 / var(--tw-text-opacity));
@@ -3455,9 +3448,6 @@ video {
 }
 .opacity-10{
   opacity: 0.1;
-}
-.opacity-30{
-  opacity: 0.3;
 }
 .transition-all{
   transition-property: all;
@@ -4015,9 +4005,6 @@ header figure img{
   .sm\:mt-\[-75px\]{
     margin-top: -75px;
   }
-  .sm\:block{
-    display: block;
-  }
   .sm\:inline-block{
     display: inline-block;
   }
@@ -4038,9 +4025,6 @@ header figure img{
   }
   .sm\:h-\[400px\]{
     height: 400px;
-  }
-  .sm\:h-auto{
-    height: auto;
   }
   .sm\:h-full{
     height: 100%;
@@ -5083,6 +5067,9 @@ header figure img{
   }
   .xl\:pr-\[3px\]{
     padding-right: 3px;
+  }
+  .xl\:pr-\[73px\]{
+    padding-right: 73px;
   }
   .xl\:pt-\[10px\]{
     padding-top: 10px;
