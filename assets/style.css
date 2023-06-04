@@ -2622,6 +2622,9 @@ video {
 .h-\[874px\]{
   height: 874px;
 }
+.h-\[92\%\]{
+  height: 92%;
+}
 .h-full{
   height: 100%;
 }
@@ -3052,14 +3055,14 @@ video {
 .pr-\[24px\]{
   padding-right: 24px;
 }
+.pr-\[30px\]{
+  padding-right: 30px;
+}
 .pr-\[33px\]{
   padding-right: 33px;
 }
 .pr-\[54px\]{
   padding-right: 54px;
-}
-.pr-\[60px\]{
-  padding-right: 60px;
 }
 .pr-\[68px\]{
   padding-right: 68px;
@@ -3328,11 +3331,11 @@ video {
 .leading-\[27px\]{
   line-height: 27px;
 }
-.leading-\[30px\]{
-  line-height: 30px;
-}
 .leading-\[38px\]{
   line-height: 38px;
+}
+.leading-\[40px\]{
+  line-height: 40px;
 }
 .leading-\[43px\]{
   line-height: 43px;
@@ -3398,6 +3401,10 @@ video {
 .text-\[\#5C5C5C\]{
   --tw-text-opacity: 1;
   color: rgb(92 92 92 / var(--tw-text-opacity));
+}
+.text-\[\#F7F1E2\]{
+  --tw-text-opacity: 1;
+  color: rgb(247 241 226 / var(--tw-text-opacity));
 }
 .text-\[\#FAF5E9\]{
   --tw-text-opacity: 1;
@@ -3713,7 +3720,7 @@ a:hover {
   font-family: "LarkenVariableRoman";
 }
 .border-outline{
-  -webkit-text-fill-color: #F5A54F;
+  -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #fff;
 }
 #checked:checked ~ .header-menu{
@@ -4010,6 +4017,9 @@ header figure img{
   .sm\:mt-\[-75px\]{
     margin-top: -75px;
   }
+  .sm\:block{
+    display: block;
+  }
   .sm\:inline-block{
     display: inline-block;
   }
@@ -4030,6 +4040,9 @@ header figure img{
   }
   .sm\:h-\[400px\]{
     height: 400px;
+  }
+  .sm\:h-auto{
+    height: auto;
   }
   .sm\:h-full{
     height: 100%;

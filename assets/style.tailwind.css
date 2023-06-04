@@ -261,7 +261,7 @@
   font-family: "LarkenVariableRoman";
 }
 .border-outline{
-  -webkit-text-fill-color: #F5A54F;
+  -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #fff;
 }
 #checked:checked ~ .header-menu{
