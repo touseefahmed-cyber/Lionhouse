@@ -12,7 +12,7 @@ if (typeof(element) != 'undefined' && element != null)
   new BlazeSlider(ell, {
     all: {
       autoplayDirection: 'to Right',
-      enableAutoplay: true,
+      enableAutoplay: false,
       autoplayInterval: 500,
       transitionDuration: 300,
       slidesToShow: 6,
@@ -45,10 +45,11 @@ const el = document.querySelector('#blaze-slider1');
 new BlazeSlider(el, {
   all: {
     autoplayDirection: 'to Right',
-    enableAutoplay: true,
+    enableAutoplay: false,
     autoplayInterval: 2000,
     transitionDuration: 300,
     slidesToShow: 3,
+    slideGap: '50px',
   },
   '(max-width: 900px)': {
     slidesToShow: 2,
@@ -157,4 +158,16 @@ const josh = new Josh({
 
   // Animation will trigger on newly added element or not. Default is false
   onDOMChange: false,
+});
+
+var inputs = document.querySelectorAll('.marquee');
+
+inputs.forEach(function(input) {
+  input.addEventListener('mouseover', function hover() {
+    this.classList.add("selected");
+  });
+
+  input.addEventListener('mouseleave', function leave() {
+    this.classList.remove("selected");
+  });
 });
