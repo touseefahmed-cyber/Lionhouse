@@ -283,7 +283,7 @@
   background-size: cover;
   background-position: center;
   z-index: 100;
-  transition: all 800ms cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 1100ms cubic-bezier(0.86, 0, 0.07, 1);
   opacity: 0;
 }
 #checked:checked ~ .navigation__background {
@@ -294,7 +294,7 @@
   opacity: 0;
   width: 0;
   visibility: hidden;
-  transition: all 900ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 1200ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 #checked:checked ~ header .site-map-col ul li a label span{
@@ -393,8 +393,16 @@ header figure img{
 figure{
   overflow: hidden;
 }
+header figure{
+  overflow: initial;
+}
 
 figure > img:hover{
   transform: scale(1.1);
     transition: transform 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98) 0s;
+}
+.sidebar-stick #service-txt{
+  position: sticky;
+  top: 30px;
+  width: 100%;
 }

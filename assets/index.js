@@ -124,6 +124,16 @@ tl.to("video",{
   width:'100%',
 },'a')
 
+var tl2 = gsap.timeline({scrollTrigger:{
+  trigger:"#service-con",
+   start: `top center`,
+  end: "125% center",
+  scrub: 0.5,
+  markers: false,
+  pin: false,
+  toggleClass: 'sidebar-stick'
+}});
+
 /*
           * =======================================================
           *            Theme setup.
