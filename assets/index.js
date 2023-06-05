@@ -143,6 +143,10 @@ document.querySelector('.hamburger-toggle').addEventListener('click', toggleOffc
           * =======================================================
 */
 
+var joshele =  document.querySelector('josh-js');
+if (typeof(joshele) != 'undefined' && joshele != null)
+{
+  
 const josh = new Josh({
   // DOM CSS class to Animate, default is "josh-js"
   initClass: "josh-js",
@@ -159,6 +163,8 @@ const josh = new Josh({
   // Animation will trigger on newly added element or not. Default is false
   onDOMChange: false,
 });
+}
+
 
 var inputs = document.querySelectorAll('.marquee');
 
