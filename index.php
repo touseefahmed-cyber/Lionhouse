@@ -38,7 +38,7 @@
       </div>
   </header>
   <div class="navigation__background"></div>
-  <div class="float-left w-full sm:pt-[190px] pt-[174px] h-full header-menu fixed top-0 z-[999] overflow-auto">
+  <div class="float-left w-full sm:pt-[190px] pt-[174px] h-full header-menu fixed top-0 z-[999] md:overflow-hidden sm:overflow-auto">
         <div class="container mx-auto 2xl:px-0 px-4">
                 <div class="flex justify-between sm:flex-row flex-col-reverse">
                     <div class="flex ">
@@ -259,7 +259,7 @@
                       </ul>
                   </div>
               </div>
-              <div class="text-center w-full float-left sm:block hidden">
+              <div class="text-center w-full float-left sm:block hidden mb-24">
                   <a href="#" class="hover:text-light-white hover:bg-[#F5A54F] text-sm 
                   leading-13 text-black border-[1px] border-solid border-[#F5A54F] inline-block
                    rounded-[21px] pl-[22px] pr-[12px] pt-[10px] pb-[11px] transition-all duration-[0.6s] ease-in-out hover:-translate-y-[8px] josh-js" data-josh-anim-name="fadeInUp" data-josh-anim-delay="2.5s">See all services</a>
@@ -271,7 +271,7 @@
       <div class="container mx-auto 2xl:px-0 px-4">
           <h3 class="2xl:text-7xl xl:text-[151px] lg:text-[130px] md:text-[100px] text-[74px]  xl:leading-[151px]
            md:leading-[110px] leading-[90px] sm:leading-[110px] 2xl:ml-[-90px] xl:ml-[-16px] sm:ml-[-15px] ml-[-10px]
-          larkenvariableroman font-black tracking-[-2px] text-[#dadada] josh-js" data-josh-anim-name="backInLeft" data-josh-anim-delay="2.5s">Journal</h3>
+          larkenvariableroman font-black tracking-[-2px] text-[#dadada]/[0.3] josh-js" data-josh-anim-name="backInLeft" data-josh-anim-delay="2.5s">Journal</h3>
           <div class="blaze-slider float-left w-full xl:mt-[-48px] mt-[-35px]" id="blaze-slider1">
               <div class="blaze-container">
                 <div class="blaze-track-container">
