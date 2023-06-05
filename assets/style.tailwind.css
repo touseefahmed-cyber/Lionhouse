@@ -378,9 +378,15 @@ header figure img{
     font-size: 12px;
   }
   .large-heading{
-    font-size: 63px !important;
+    /* font-size: 63px !important;  */
+    font-size: 40px;
+  }
+  .big-heading{
+    /* font-size: 55px; */
+    font-size: 40px;
   }
   .footer-large-heading{
-    font-size: 55px !important;
+    /* font-size: 55px !important; */
+    font-size: 40px;
   }
 }
