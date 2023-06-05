@@ -5156,6 +5156,9 @@ header figure img{
   .xl\:leading-\[151px\]{
     line-height: 151px;
   }
+  .xl\:leading-\[270px\]{
+    line-height: 270px;
+  }
 }
 @media (min-width: 1536px){
   .\32xl\:mb-\[230px\]{
@@ -5203,5 +5206,8 @@ header figure img{
   }
   .\32xl\:text-8xl{
     font-size: 16.375rem;
+  }
+  .\32xl\:text-\[19\.3rem\]{
+    font-size: 19.3rem;
   }
 }
