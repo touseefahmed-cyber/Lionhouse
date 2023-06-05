@@ -3362,6 +3362,9 @@ video {
 .leading-\[90px\]{
   line-height: 90px;
 }
+.tracking-\[-2px\]{
+  letter-spacing: -2px;
+}
 .tracking-\[\.4px\]{
   letter-spacing: .4px;
 }
@@ -3370,9 +3373,6 @@ video {
 }
 .tracking-\[0\.8px\]{
   letter-spacing: 0.8px;
-}
-.tracking-\[1\.9px\]{
-  letter-spacing: 1.9px;
 }
 .tracking-\[1px\]{
   letter-spacing: 1px;
@@ -3836,6 +3836,13 @@ header figure img{
     /* font-size: 55px !important; */
     font-size: 40px;
   }
+}
+figure{
+  overflow: hidden;
+}
+figure > img:hover{
+  transform: scale(1.1);
+    transition: transform 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98) 0s;
 }
 .after\:absolute::after{
   content: var(--tw-content);

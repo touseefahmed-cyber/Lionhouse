@@ -390,3 +390,11 @@ header figure img{
     font-size: 40px;
   }
 }
+figure{
+  overflow: hidden;
+}
+
+figure > img:hover{
+  transform: scale(1.1);
+    transition: transform 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98) 0s;
+}
