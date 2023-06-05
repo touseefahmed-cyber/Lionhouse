@@ -128,11 +128,11 @@
               </div>
               <h3 class="large-heading xl:text-5xl lg:text-[115px] md:text-[83px] sm:text-[77px] text-[70px] text-black
                lg:leading-[102px] md:leading-[90px] leading-[50px] larkenvariableroman font-black 
-              tracking-[1.9px] inline-block sm:border-r-[1.5px] border-solid border-[#F5A54F] lg:pr-[51px] sm:pr-[35px] sm:mr-[36px] josh-js"  
+              tracking-[-2px] inline-block sm:border-r-[1.5px] border-solid border-[#F5A54F] lg:pr-[51px] sm:pr-[35px] sm:mr-[36px] josh-js"  
               data-josh-anim-name="flipInX"
               data-josh-anim-delay="1s" >Bath</h3>
               <h3 class="large-heading xl:text-5xl lg:text-[115px] md:text-[83px] text-[77px]
-               text-black lg:leading-[102px] sm:leading-[90px] leading-[78px] larkenvariableroman font-black tracking-[1.9px] inline-block josh-js" data-josh-anim-name="flipInX"
+               text-black lg:leading-[102px] sm:leading-[90px] leading-[78px] larkenvariableroman font-black tracking-[-2px] inline-block josh-js" data-josh-anim-name="flipInX"
                data-josh-anim-delay="2s" >Cornwall</h3>
           </div>
       </div>
@@ -145,7 +145,7 @@
                    pt-[10px] pb-[11px] float-right hover:text-light-white hover:bg-[#F5A54F] transition-all duration-[0.6s]
                     ease-in-out hover:-translate-y-[8px] josh-js" data-josh-anim-name="fadeInUp" data-josh-anim-delay="2.5s">See all projects</a>
               </div>
-              <h3 class="large-heading xl:text-6xl lg:text-[134px] md:text-[118px] sm:text-[75px] text-[88px] md:leading-[150px] leading-[115px] larkenvariableroman font-black tracking-[1.9px] text-right text-[#F7F1E2] opacity-10 w-full float-right service-title josh-js"
+              <h3 class="large-heading xl:text-6xl lg:text-[134px] md:text-[118px] sm:text-[75px] text-[88px] md:leading-[150px] leading-[115px] larkenvariableroman font-black tracking-[-2px] text-right text-[#F7F1E2] opacity-10 w-full float-right service-title josh-js"
               data-josh-anim-name="backInRight"
               data-josh-anim-delay="2.5s">Projects</h3>
               <div class="grid sm:grid-cols-2 md:gap-x-[35px] 
@@ -196,12 +196,12 @@
       </div>
       <div class="w-full float-left marquee flex truncate lg:mb-[132px] sm:mb-[100px] mb-[100px]">
           <a href="#"><h3 class="lg:text-7xl sm:text-[100px] text-[120px] text-black md:leading-[186px] leading-[123px]
-            larkenvariableroman font-black tracking-[1.9px]
+            larkenvariableroman font-black tracking-[-2px]
              text-dark-yellow text-[#f2ebd9] opacity-10 text-center sm:pl-[67px] pl-[45px] inline-block">Start a project</h3>
            <h3 class="lg:text-7xl sm:text-[100px] text-[120px] text-black md:leading-[186px] leading-[123px] larkenvariableroman
-            font-black tracking-[1.9px] text-dark-yellow text-[#f2ebd9]
+            font-black tracking-[-2px] text-dark-yellow text-[#f2ebd9]
              opacity-10 text-center sm:pl-[67px] pl-[45px] inline-block">Start a project</h3>
-           <h3 class="lg:text-7xl sm:text-[100px] text-[120px] text-black md:leading-[186px] leading-[123px] larkenvariableroman font-black tracking-[1.9px] text-dark-yellow text-[#f2ebd9]
+           <h3 class="lg:text-7xl sm:text-[100px] text-[120px] text-black md:leading-[186px] leading-[123px] larkenvariableroman font-black tracking-[-2px] text-dark-yellow text-[#f2ebd9]
             opacity-10 text-center inline-block">Start a project</h3></a>
       </div>
       <div class="w-full float-left">
@@ -271,7 +271,7 @@
       <div class="container mx-auto 2xl:px-0 px-4">
           <h3 class="2xl:text-7xl xl:text-[151px] lg:text-[130px] md:text-[100px] text-[74px]  xl:leading-[151px]
            md:leading-[110px] leading-[90px] sm:leading-[110px] 2xl:ml-[-90px] xl:ml-[-16px] sm:ml-[-15px] ml-[-10px]
-          larkenvariableroman font-black tracking-[1.9px] text-[#dadada] josh-js" data-josh-anim-name="backInLeft" data-josh-anim-delay="2.5s">Journal</h3>
+          larkenvariableroman font-black tracking-[-2px] text-[#dadada] josh-js" data-josh-anim-name="backInLeft" data-josh-anim-delay="2.5s">Journal</h3>
           <div class="blaze-slider float-left w-full xl:mt-[-48px] mt-[-35px]" id="blaze-slider1">
               <div class="blaze-container">
                 <div class="blaze-track-container">
