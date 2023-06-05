@@ -3074,9 +3074,6 @@ video {
 .pt-\[130px\]{
   padding-top: 130px;
 }
-.pt-\[140px\]{
-  padding-top: 140px;
-}
 .pt-\[143px\]{
   padding-top: 143px;
 }
@@ -5142,7 +5139,7 @@ header figure img{
     font-size: 9.375rem;
   }
   .xl\:text-8xl{
-    font-size: 16.375rem;
+    font-size: 19.3rem;
   }
   .xl\:text-\[151px\]{
     font-size: 151px;
@@ -5205,7 +5202,7 @@ header figure img{
     font-size: 11.625rem;
   }
   .\32xl\:text-8xl{
-    font-size: 16.375rem;
+    font-size: 19.3rem;
   }
   .\32xl\:text-\[19\.3rem\]{
     font-size: 19.3rem;
