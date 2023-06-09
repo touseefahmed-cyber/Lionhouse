@@ -2382,11 +2382,11 @@ video {
 .mb-\[-10px\]{
   margin-bottom: -10px;
 }
+.mb-\[-15px\]{
+  margin-bottom: -15px;
+}
 .mb-\[-27px\]{
   margin-bottom: -27px;
-}
-.mb-\[-30px\]{
-  margin-bottom: -30px;
 }
 .mb-\[-35px\]{
   margin-bottom: -35px;
@@ -2468,6 +2468,9 @@ video {
 }
 .mb-\[29px\]{
   margin-bottom: 29px;
+}
+.mb-\[30px\]{
+  margin-bottom: 30px;
 }
 .mb-\[36px\]{
   margin-bottom: 36px;
@@ -2693,9 +2696,6 @@ video {
 }
 .w-\[40\%\]{
   width: 40%;
-}
-.w-\[45\%\]{
-  width: 45%;
 }
 .w-\[50\%\]{
   width: 50%;
@@ -2980,6 +2980,10 @@ video {
   padding-left: 29px;
   padding-right: 29px;
 }
+.px-\[30px\]{
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .px-\[31px\]{
   padding-left: 31px;
   padding-right: 31px;
@@ -2991,10 +2995,6 @@ video {
 .px-\[50px\]{
   padding-left: 50px;
   padding-right: 50px;
-}
-.px-\[60px\]{
-  padding-left: 60px;
-  padding-right: 60px;
 }
 .py-\[20px\]{
   padding-top: 20px;
@@ -3317,9 +3317,6 @@ video {
 .text-\[10px\]{
   font-size: 10px;
 }
-.text-\[110px\]{
-  font-size: 110px;
-}
 .text-\[11px\]{
   font-size: 11px;
 }
@@ -3341,6 +3338,9 @@ video {
 .text-\[18px\]{
   font-size: 18px;
 }
+.text-\[40px\]{
+  font-size: 40px;
+}
 .text-\[41px\]{
   font-size: 41px;
 }
@@ -3349,9 +3349,6 @@ video {
 }
 .text-\[45px\]{
   font-size: 45px;
-}
-.text-\[48px\]{
-  font-size: 48px;
 }
 .text-\[60px\]{
   font-size: 60px;
@@ -4092,6 +4089,13 @@ div.accordion.is-open + .accordion-content{
   .upper-video-sec{
     margin-bottom: 170px !important;
   }
+  div.accordion {
+    padding: 25px 20px 20px 20px;
+  }
+   .accordion-content{
+     padding: 0px 25px;
+
+   }
 }
 @media only screen and (max-width: 768px) {
   .upper-video-sec{
@@ -5057,6 +5061,9 @@ figure > img:hover{
   .lg\:mb-\[-107px\]{
     margin-bottom: -107px;
   }
+  .lg\:mb-\[-30px\]{
+    margin-bottom: -30px;
+  }
   .lg\:mb-\[-50px\]{
     margin-bottom: -50px;
   }
@@ -5183,6 +5190,9 @@ figure > img:hover{
   .lg\:w-\[44\%\]{
     width: 44%;
   }
+  .lg\:w-\[45\%\]{
+    width: 45%;
+  }
   .lg\:w-\[47\%\]{
     width: 47%;
   }
@@ -5225,6 +5235,10 @@ figure > img:hover{
     padding-left: 40px;
     padding-right: 40px;
   }
+  .lg\:px-\[60px\]{
+    padding-left: 60px;
+    padding-right: 60px;
+  }
   .lg\:pb-\[115px\]{
     padding-bottom: 115px;
   }
@@ -5263,6 +5277,9 @@ figure > img:hover{
   }
   .lg\:pl-\[32px\]{
     padding-left: 32px;
+  }
+  .lg\:pl-\[50px\]{
+    padding-left: 50px;
   }
   .lg\:pr-\[103px\]{
     padding-right: 103px;
@@ -5330,6 +5347,9 @@ figure > img:hover{
   .lg\:text-\[100px\]{
     font-size: 100px;
   }
+  .lg\:text-\[110px\]{
+    font-size: 110px;
+  }
   .lg\:text-\[115px\]{
     font-size: 115px;
   }
@@ -5351,8 +5371,14 @@ figure > img:hover{
   .lg\:text-\[200px\]{
     font-size: 200px;
   }
+  .lg\:text-\[48px\]{
+    font-size: 48px;
+  }
   .lg\:text-\[68px\]{
     font-size: 68px;
+  }
+  .lg\:leading-13{
+    line-height: 13px;
   }
   .lg\:leading-34{
     line-height: 34px;
@@ -5363,6 +5389,9 @@ figure > img:hover{
   .lg\:leading-\[105px\]{
     line-height: 105px;
   }
+  .lg\:leading-\[115px\]{
+    line-height: 115px;
+  }
   .lg\:leading-\[125px\]{
     line-height: 125px;
   }
@@ -5371,6 +5400,9 @@ figure > img:hover{
   }
   .lg\:leading-\[202px\]{
     line-height: 202px;
+  }
+  .lg\:leading-\[50px\]{
+    line-height: 50px;
   }
   .lg\:leading-\[72px\]{
     line-height: 72px;

@@ -490,6 +490,13 @@ div.accordion.is-open + .accordion-content{
   .upper-video-sec{
     margin-bottom: 170px !important;
   }
+  div.accordion {
+    padding: 25px 20px 20px 20px;
+  }
+   .accordion-content{
+     padding: 0px 25px;
+
+   }
 }
 @media only screen and (max-width: 768px) {
   .upper-video-sec{
