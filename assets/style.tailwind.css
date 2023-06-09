@@ -387,6 +387,105 @@ header figure img{
   max-height: auto !important;
   margin-bottom: 230px !important;
 }
+
+
+
+
+div.accordion {
+  width: 100%;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius:16px;
+  text-align: left;
+  cursor: pointer;
+  padding: 51px 48px 48px 48px;
+  font-family: Space Mono, monospace;
+  transition: background-color 0.2s linear;
+  position: relative;
+}
+div.accordion h3{
+  margin-bottom: 16px;
+}
+div.accordion ul li{
+  letter-spacing: 1.4px;
+}
+div.accordion:after{
+  top: 48.5%;
+  width: 5px;
+  content: "";
+  right: 53px;
+  height: 23px;
+  /* content: "\f150"; */
+  position: absolute;
+  background-color: #F5A54F;
+  transform: translateY(-50%);
+}
+div.accordion::before{
+  top: 47%;
+  height: 5px;
+  content: "";
+  right: 33px;
+  width: 23px;
+  /* content: "\f150"; */
+  position: absolute;
+  background-color: #F5A54F;
+  transform: translateX(-50%);
+}
+
+
+div.accordion.is-open:after {
+  display: none;
+
+}
+div.accordion.is-open{
+  padding-bottom: 73px;
+  border-radius: 16px 16px 0 0;
+}
+div.accordion.is-open + .accordion-content{
+  padding-bottom: 79px;
+}
+.accordion-content{
+  max-height: 0;
+  padding: 0 48px;
+  overflow: hidden;  
+  border-radius: 0 0 16px 16px;
+  background-color: #ffffff;
+  transition: max-height 0.2s ease-in-out;
+}
+.accordion-content .accordian-text h4{
+  font-size: 18px;
+  line-height: 25px;
+  color:black;
+  text-transform: capitalize;
+}
+.accordion-content .accordian-text p{
+  font-size: 13px;
+  line-height: 22px;
+  color: #5D5D5D;
+}
+.accordian-right-con span{
+  position: relative;
+}
+.accordian-right-con span:last-child::after{
+  display: none;
+}
+.accordian-right-con span::after{
+  right: 0;
+  bottom: 0;
+  content: "";
+  height: 17px;
+  rotate: 18deg;
+  position: absolute;
+  border-right: 1px solid #5D5D5D;
+}
+
+
+@media only screen and (max-width: 1280px){
+  div.accordion{
+    padding: 40px 40px 40px 40px;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .upper-video-sec{
     margin-bottom: 170px !important;
